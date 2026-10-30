@@ -8,8 +8,8 @@ export type Talk = {
   // Epoch milliseconds
   start: number;
   doNotRecord: boolean;
-  // Official AV intro card, path under public/
-  card: string;
+  // Official AV card per output size ("1920x1080", "4032x1512", ...), paths under public/
+  cards: Record<string, string>;
 };
 
 export type TalksFile = {

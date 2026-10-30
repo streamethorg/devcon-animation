@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import { STREAM_SIZE, sizeTag, type Size } from "../../src/screens";
 import { config } from "./config";
 
 export type ApiSession = {
@@ -60,9 +61,17 @@ export function sessionHash(s: ApiSession): string {
   return createHash("sha256").update(JSON.stringify(canonical(s))).digest("hex");
 }
 
-/** The official 1920x1080 AV intro card devcon.org renders for a session. */
-export async function fetchCard(sessionId: string, tries = 3): Promise<Buffer> {
-  const url = `${config.devconSite}/api/social/av/${sessionId}/`;
+/**
+ * The official AV card devcon.org renders for a session at an output size:
+ * the 1920x1080 intro card (the YouTube Card in Drive), or the stage screen's
+ * card at that screen's own size (the Screen Card), never a crop of the first.
+ */
+export async function fetchCard(sessionId: string, size: Size, tries = 3): Promise<Buffer> {
+  const tag = sizeTag(size);
+  const url =
+    tag === sizeTag(STREAM_SIZE)
+      ? `${config.devconSite}/api/social/av/${sessionId}/`
+      : `${config.devconSite}/api/social/av-screen/${tag}/${sessionId}/`;
   let lastErr: unknown;
   for (let i = 0; i < tries; i++) {
     try {

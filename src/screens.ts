@@ -1,6 +1,8 @@
 // In-room LED screens (AV spec, "FINAL AS ON 22 OCT"). Talks on these stages
-// get a version at the screen's exact pixel size, scaled to fill (top/bottom
-// cropped), on top of the 1920x1080 version every talk gets for the stream.
+// get a version at each screen's exact pixel size, made from that screen's own
+// intro master and devcon.org's card at that size, on top of the 1920x1080
+// version every talk gets for the stream. Same room map as devcon.org's AV
+// page and devcon-api's AV Drive pipeline (AV_SCREEN_SIZES).
 export type Size = { width: number; height: number };
 export type Screen = Size & { name: string };
 
@@ -13,13 +15,17 @@ export const SCREENS = {
   gamingLeaderboard: { name: "Gaming Leaderboard", width: 1792, height: 1024 },
 } satisfies Record<string, Screen>;
 
-// Devcon API room name -> screen in that room. Rooms not listed only get 1080p.
-export const ROOM_SCREENS: Record<string, Screen> = {
-  "Main Stage (Lotus)": SCREENS.lotus2,
-  "Lotus Stage 1": SCREENS.lotus1,
-  "Lotus Stage 2": SCREENS.lotus2,
-  "Lotus Stage 3": SCREENS.lotus3,
-  "Jasmine Stage 4": SCREENS.jasmine2,
+// Devcon API room name -> screens in that room. Rooms not listed only get 1080p.
+export const ROOM_SCREENS: Record<string, Screen[]> = {
+  // The Main Stage uses the three Lotus walls together: both sizes.
+  "Main Stage (Lotus)": [SCREENS.lotus2, SCREENS.lotus1],
+  "Lotus Stage 1": [SCREENS.lotus1],
+  "Lotus Stage 2": [SCREENS.lotus2],
+  "Lotus Stage 3": [SCREENS.lotus3],
+  "Jasmine Stage 4": [SCREENS.jasmine2],
+  "Community Led Stage": [SCREENS.pavillion],
+  // Same pavilion as the Community Led Stage.
+  "CLS - Builders Room": [SCREENS.pavillion],
 };
 
 export const STREAM_SIZE: Size = { width: 1920, height: 1080 };
@@ -32,10 +38,8 @@ export type Variant = Size & {
 
 export function variantsFor(room: string): Variant[] {
   const stream: Variant = { id: "1080p", label: "1080p", ...STREAM_SIZE };
-  const screen = ROOM_SCREENS[room];
-  return screen
-    ? [{ id: "screen", label: screen.name, width: screen.width, height: screen.height }, stream]
-    : [stream];
+  const screens: Variant[] = (ROOM_SCREENS[room] ?? []).map((s) => ({ id: "screen", label: s.name, width: s.width, height: s.height }));
+  return [...screens, stream];
 }
 
 export const sizeTag = (s: Size) => `${s.width}x${s.height}`;

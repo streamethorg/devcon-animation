@@ -8,7 +8,11 @@
       "room": "Main Stage (Lotus)",
       "start": 1793680200000,
       "doNotRecord": false,
-      "card": "cards/RPAPTP.jpg"
+      "cards": {
+        "4032x1512": "cards/RPAPTP-4032x1512.jpg",
+        "3192x1512": "cards/RPAPTP-3192x1512.jpg",
+        "1920x1080": "cards/RPAPTP-1920x1080.jpg"
+      }
     },
     {
       "code": "C7S83U",
@@ -17,7 +21,9 @@
       "room": "Music stage",
       "start": 1793687400000,
       "doNotRecord": false,
-      "card": "cards/C7S83U.jpg"
+      "cards": {
+        "1920x1080": "cards/C7S83U-1920x1080.jpg"
+      }
     },
     {
       "code": "QUHRZV",
@@ -26,7 +32,10 @@
       "room": "Community Led Stage",
       "start": 1793687400000,
       "doNotRecord": false,
-      "card": "cards/QUHRZV.jpg"
+      "cards": {
+        "2016x1176": "cards/QUHRZV-2016x1176.jpg",
+        "1920x1080": "cards/QUHRZV-1920x1080.jpg"
+      }
     },
     {
       "code": "FCZDAJ",
@@ -35,7 +44,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793688000000,
       "doNotRecord": false,
-      "card": "cards/FCZDAJ.jpg"
+      "cards": {
+        "1680x1008": "cards/FCZDAJ-1680x1008.jpg",
+        "1920x1080": "cards/FCZDAJ-1920x1080.jpg"
+      }
     },
     {
       "code": "QAJPU8",
@@ -44,7 +56,9 @@
       "room": "Workshop 1",
       "start": 1793688000000,
       "doNotRecord": false,
-      "card": "cards/QAJPU8.jpg"
+      "cards": {
+        "1920x1080": "cards/QAJPU8-1920x1080.jpg"
+      }
     },
     {
       "code": "NX3E73",
@@ -53,7 +67,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793688300000,
       "doNotRecord": false,
-      "card": "cards/NX3E73.jpg"
+      "cards": {
+        "1680x1008": "cards/NX3E73-1680x1008.jpg",
+        "1920x1080": "cards/NX3E73-1920x1080.jpg"
+      }
     },
     {
       "code": "ER8EHM",
@@ -62,7 +79,9 @@
       "room": "Workshop 2",
       "start": 1793688300000,
       "doNotRecord": false,
-      "card": "cards/ER8EHM.jpg"
+      "cards": {
+        "1920x1080": "cards/ER8EHM-1920x1080.jpg"
+      }
     },
     {
       "code": "FJKNCP",
@@ -71,7 +90,9 @@
       "room": "Workshop 1",
       "start": 1793688300000,
       "doNotRecord": false,
-      "card": "cards/FJKNCP.jpg"
+      "cards": {
+        "1920x1080": "cards/FJKNCP-1920x1080.jpg"
+      }
     },
     {
       "code": "9SYFAJ",
@@ -80,7 +101,9 @@
       "room": "Lightning Stage",
       "start": 1793688300000,
       "doNotRecord": false,
-      "card": "cards/9SYFAJ.jpg"
+      "cards": {
+        "1920x1080": "cards/9SYFAJ-1920x1080.jpg"
+      }
     },
     {
       "code": "BYHYXS",
@@ -89,7 +112,9 @@
       "room": "Lightning Stage",
       "start": 1793688900000,
       "doNotRecord": false,
-      "card": "cards/BYHYXS.jpg"
+      "cards": {
+        "1920x1080": "cards/BYHYXS-1920x1080.jpg"
+      }
     },
     {
       "code": "7W9ZC7",
@@ -98,7 +123,9 @@
       "room": "Music stage",
       "start": 1793689200000,
       "doNotRecord": false,
-      "card": "cards/7W9ZC7.jpg"
+      "cards": {
+        "1920x1080": "cards/7W9ZC7-1920x1080.jpg"
+      }
     },
     {
       "code": "7VQRHD",
@@ -107,7 +134,9 @@
       "room": "Lightning Stage",
       "start": 1793689500000,
       "doNotRecord": false,
-      "card": "cards/7VQRHD.jpg"
+      "cards": {
+        "1920x1080": "cards/7VQRHD-1920x1080.jpg"
+      }
     },
     {
       "code": "VK7N3H",
@@ -116,7 +145,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793690100000,
       "doNotRecord": false,
-      "card": "cards/VK7N3H.jpg"
+      "cards": {
+        "1680x1008": "cards/VK7N3H-1680x1008.jpg",
+        "1920x1080": "cards/VK7N3H-1920x1080.jpg"
+      }
     },
     {
       "code": "LG3SGH",
@@ -125,7 +157,9 @@
       "room": "Lightning Stage",
       "start": 1793690100000,
       "doNotRecord": false,
-      "card": "cards/LG3SGH.jpg"
+      "cards": {
+        "1920x1080": "cards/LG3SGH-1920x1080.jpg"
+      }
     },
     {
       "code": "3WG9NQ",
@@ -134,7 +168,9 @@
       "room": "Workshop 1",
       "start": 1793690100000,
       "doNotRecord": false,
-      "card": "cards/3WG9NQ.jpg"
+      "cards": {
+        "1920x1080": "cards/3WG9NQ-1920x1080.jpg"
+      }
     },
     {
       "code": "GTCDR9",
@@ -143,7 +179,9 @@
       "room": "Lightning Stage",
       "start": 1793690700000,
       "doNotRecord": false,
-      "card": "cards/GTCDR9.jpg"
+      "cards": {
+        "1920x1080": "cards/GTCDR9-1920x1080.jpg"
+      }
     },
     {
       "code": "K3QK9G",
@@ -152,7 +190,9 @@
       "room": "Music stage",
       "start": 1793691000000,
       "doNotRecord": false,
-      "card": "cards/K3QK9G.jpg"
+      "cards": {
+        "1920x1080": "cards/K3QK9G-1920x1080.jpg"
+      }
     },
     {
       "code": "LTAQGE",
@@ -161,7 +201,10 @@
       "room": "Community Led Stage",
       "start": 1793691000000,
       "doNotRecord": false,
-      "card": "cards/LTAQGE.jpg"
+      "cards": {
+        "2016x1176": "cards/LTAQGE-2016x1176.jpg",
+        "1920x1080": "cards/LTAQGE-1920x1080.jpg"
+      }
     },
     {
       "code": "8NVAUE",
@@ -170,7 +213,9 @@
       "room": "Lightning Stage",
       "start": 1793691300000,
       "doNotRecord": false,
-      "card": "cards/8NVAUE.jpg"
+      "cards": {
+        "1920x1080": "cards/8NVAUE-1920x1080.jpg"
+      }
     },
     {
       "code": "LYJG9R",
@@ -179,7 +224,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793691900000,
       "doNotRecord": false,
-      "card": "cards/LYJG9R.jpg"
+      "cards": {
+        "1680x1008": "cards/LYJG9R-1680x1008.jpg",
+        "1920x1080": "cards/LYJG9R-1920x1080.jpg"
+      }
     },
     {
       "code": "ULE3PG",
@@ -188,7 +236,9 @@
       "room": "Workshop 2",
       "start": 1793691900000,
       "doNotRecord": false,
-      "card": "cards/ULE3PG.jpg"
+      "cards": {
+        "1920x1080": "cards/ULE3PG-1920x1080.jpg"
+      }
     },
     {
       "code": "QP7HV9",
@@ -197,7 +247,9 @@
       "room": "Workshop 1",
       "start": 1793691900000,
       "doNotRecord": false,
-      "card": "cards/QP7HV9.jpg"
+      "cards": {
+        "1920x1080": "cards/QP7HV9-1920x1080.jpg"
+      }
     },
     {
       "code": "9XTSJT",
@@ -206,7 +258,9 @@
       "room": "Lightning Stage",
       "start": 1793691900000,
       "doNotRecord": false,
-      "card": "cards/9XTSJT.jpg"
+      "cards": {
+        "1920x1080": "cards/9XTSJT-1920x1080.jpg"
+      }
     },
     {
       "code": "A8C93U",
@@ -215,7 +269,9 @@
       "room": "Lightning Stage",
       "start": 1793692500000,
       "doNotRecord": false,
-      "card": "cards/A8C93U.jpg"
+      "cards": {
+        "1920x1080": "cards/A8C93U-1920x1080.jpg"
+      }
     },
     {
       "code": "YEQFXR",
@@ -224,7 +280,9 @@
       "room": "Lightning Stage",
       "start": 1793693100000,
       "doNotRecord": false,
-      "card": "cards/YEQFXR.jpg"
+      "cards": {
+        "1920x1080": "cards/YEQFXR-1920x1080.jpg"
+      }
     },
     {
       "code": "TDKZNP",
@@ -233,7 +291,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793693700000,
       "doNotRecord": false,
-      "card": "cards/TDKZNP.jpg"
+      "cards": {
+        "1680x1008": "cards/TDKZNP-1680x1008.jpg",
+        "1920x1080": "cards/TDKZNP-1920x1080.jpg"
+      }
     },
     {
       "code": "X9WZEZ",
@@ -242,7 +303,9 @@
       "room": "Lightning Stage",
       "start": 1793693700000,
       "doNotRecord": false,
-      "card": "cards/X9WZEZ.jpg"
+      "cards": {
+        "1920x1080": "cards/X9WZEZ-1920x1080.jpg"
+      }
     },
     {
       "code": "HFQMZB",
@@ -251,7 +314,9 @@
       "room": "Workshop 1",
       "start": 1793693700000,
       "doNotRecord": false,
-      "card": "cards/HFQMZB.jpg"
+      "cards": {
+        "1920x1080": "cards/HFQMZB-1920x1080.jpg"
+      }
     },
     {
       "code": "R9VECE",
@@ -260,7 +325,10 @@
       "room": "Lotus Stage 1",
       "start": 1793694600000,
       "doNotRecord": false,
-      "card": "cards/R9VECE.jpg"
+      "cards": {
+        "3192x1512": "cards/R9VECE-3192x1512.jpg",
+        "1920x1080": "cards/R9VECE-1920x1080.jpg"
+      }
     },
     {
       "code": "89KLNQ",
@@ -269,7 +337,10 @@
       "room": "Lotus Stage 2",
       "start": 1793694600000,
       "doNotRecord": false,
-      "card": "cards/89KLNQ.jpg"
+      "cards": {
+        "4032x1512": "cards/89KLNQ-4032x1512.jpg",
+        "1920x1080": "cards/89KLNQ-1920x1080.jpg"
+      }
     },
     {
       "code": "BSXVZ7",
@@ -278,7 +349,10 @@
       "room": "Lotus Stage 3",
       "start": 1793694600000,
       "doNotRecord": false,
-      "card": "cards/BSXVZ7.jpg"
+      "cards": {
+        "3192x1512": "cards/BSXVZ7-3192x1512.jpg",
+        "1920x1080": "cards/BSXVZ7-1920x1080.jpg"
+      }
     },
     {
       "code": "YQMW7V",
@@ -287,7 +361,10 @@
       "room": "Lotus Stage 2",
       "start": 1793696400000,
       "doNotRecord": false,
-      "card": "cards/YQMW7V.jpg"
+      "cards": {
+        "4032x1512": "cards/YQMW7V-4032x1512.jpg",
+        "1920x1080": "cards/YQMW7V-1920x1080.jpg"
+      }
     },
     {
       "code": "VPGHTE",
@@ -296,7 +373,10 @@
       "room": "Lotus Stage 1",
       "start": 1793696400000,
       "doNotRecord": true,
-      "card": "cards/VPGHTE.jpg"
+      "cards": {
+        "3192x1512": "cards/VPGHTE-3192x1512.jpg",
+        "1920x1080": "cards/VPGHTE-1920x1080.jpg"
+      }
     },
     {
       "code": "DGNVHN",
@@ -305,7 +385,10 @@
       "room": "Lotus Stage 3",
       "start": 1793696400000,
       "doNotRecord": false,
-      "card": "cards/DGNVHN.jpg"
+      "cards": {
+        "3192x1512": "cards/DGNVHN-3192x1512.jpg",
+        "1920x1080": "cards/DGNVHN-1920x1080.jpg"
+      }
     },
     {
       "code": "PVPMTS",
@@ -314,7 +397,10 @@
       "room": "Lotus Stage 3",
       "start": 1793698200000,
       "doNotRecord": false,
-      "card": "cards/PVPMTS.jpg"
+      "cards": {
+        "3192x1512": "cards/PVPMTS-3192x1512.jpg",
+        "1920x1080": "cards/PVPMTS-1920x1080.jpg"
+      }
     },
     {
       "code": "9SWGWB",
@@ -323,7 +409,10 @@
       "room": "Community Led Stage",
       "start": 1793698200000,
       "doNotRecord": false,
-      "card": "cards/9SWGWB.jpg"
+      "cards": {
+        "2016x1176": "cards/9SWGWB-2016x1176.jpg",
+        "1920x1080": "cards/9SWGWB-1920x1080.jpg"
+      }
     },
     {
       "code": "DDAZFL",
@@ -332,7 +421,10 @@
       "room": "Lotus Stage 1",
       "start": 1793698200000,
       "doNotRecord": false,
-      "card": "cards/DDAZFL.jpg"
+      "cards": {
+        "3192x1512": "cards/DDAZFL-3192x1512.jpg",
+        "1920x1080": "cards/DDAZFL-1920x1080.jpg"
+      }
     },
     {
       "code": "KQENBR",
@@ -341,7 +433,9 @@
       "room": "Music stage",
       "start": 1793698200000,
       "doNotRecord": false,
-      "card": "cards/KQENBR.jpg"
+      "cards": {
+        "1920x1080": "cards/KQENBR-1920x1080.jpg"
+      }
     },
     {
       "code": "C39QAG",
@@ -350,7 +444,10 @@
       "room": "Lotus Stage 2",
       "start": 1793698200000,
       "doNotRecord": false,
-      "card": "cards/C39QAG.jpg"
+      "cards": {
+        "4032x1512": "cards/C39QAG-4032x1512.jpg",
+        "1920x1080": "cards/C39QAG-1920x1080.jpg"
+      }
     },
     {
       "code": "KUXVYF",
@@ -359,7 +456,9 @@
       "room": "Lightning Stage",
       "start": 1793698200000,
       "doNotRecord": false,
-      "card": "cards/KUXVYF.jpg"
+      "cards": {
+        "1920x1080": "cards/KUXVYF-1920x1080.jpg"
+      }
     },
     {
       "code": "VAH3UG",
@@ -368,7 +467,9 @@
       "room": "Lightning Stage",
       "start": 1793698800000,
       "doNotRecord": false,
-      "card": "cards/VAH3UG.jpg"
+      "cards": {
+        "1920x1080": "cards/VAH3UG-1920x1080.jpg"
+      }
     },
     {
       "code": "WNTLV3",
@@ -377,7 +478,10 @@
       "room": "Lotus Stage 3",
       "start": 1793698800000,
       "doNotRecord": false,
-      "card": "cards/WNTLV3.jpg"
+      "cards": {
+        "3192x1512": "cards/WNTLV3-3192x1512.jpg",
+        "1920x1080": "cards/WNTLV3-1920x1080.jpg"
+      }
     },
     {
       "code": "GAFFTR",
@@ -386,7 +490,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793699100000,
       "doNotRecord": false,
-      "card": "cards/GAFFTR.jpg"
+      "cards": {
+        "1680x1008": "cards/GAFFTR-1680x1008.jpg",
+        "1920x1080": "cards/GAFFTR-1920x1080.jpg"
+      }
     },
     {
       "code": "JY3MDV",
@@ -395,7 +502,9 @@
       "room": "Workshop 1",
       "start": 1793699100000,
       "doNotRecord": false,
-      "card": "cards/JY3MDV.jpg"
+      "cards": {
+        "1920x1080": "cards/JY3MDV-1920x1080.jpg"
+      }
     },
     {
       "code": "ZAVMAP",
@@ -404,7 +513,9 @@
       "room": "Lightning Stage",
       "start": 1793699400000,
       "doNotRecord": false,
-      "card": "cards/ZAVMAP.jpg"
+      "cards": {
+        "1920x1080": "cards/ZAVMAP-1920x1080.jpg"
+      }
     },
     {
       "code": "HXTUPM",
@@ -413,7 +524,10 @@
       "room": "Lotus Stage 3",
       "start": 1793699400000,
       "doNotRecord": false,
-      "card": "cards/HXTUPM.jpg"
+      "cards": {
+        "3192x1512": "cards/HXTUPM-3192x1512.jpg",
+        "1920x1080": "cards/HXTUPM-1920x1080.jpg"
+      }
     },
     {
       "code": "PXXPPE",
@@ -422,7 +536,10 @@
       "room": "Lotus Stage 3",
       "start": 1793700000000,
       "doNotRecord": false,
-      "card": "cards/PXXPPE.jpg"
+      "cards": {
+        "3192x1512": "cards/PXXPPE-3192x1512.jpg",
+        "1920x1080": "cards/PXXPPE-1920x1080.jpg"
+      }
     },
     {
       "code": "QGVASQ",
@@ -431,7 +548,9 @@
       "room": "Lightning Stage",
       "start": 1793700000000,
       "doNotRecord": false,
-      "card": "cards/QGVASQ.jpg"
+      "cards": {
+        "1920x1080": "cards/QGVASQ-1920x1080.jpg"
+      }
     },
     {
       "code": "FGNDST",
@@ -440,7 +559,10 @@
       "room": "Lotus Stage 1",
       "start": 1793700000000,
       "doNotRecord": false,
-      "card": "cards/FGNDST.jpg"
+      "cards": {
+        "3192x1512": "cards/FGNDST-3192x1512.jpg",
+        "1920x1080": "cards/FGNDST-1920x1080.jpg"
+      }
     },
     {
       "code": "NXEQ8C",
@@ -449,7 +571,10 @@
       "room": "Lotus Stage 2",
       "start": 1793700000000,
       "doNotRecord": false,
-      "card": "cards/NXEQ8C.jpg"
+      "cards": {
+        "4032x1512": "cards/NXEQ8C-4032x1512.jpg",
+        "1920x1080": "cards/NXEQ8C-1920x1080.jpg"
+      }
     },
     {
       "code": "GKLUZN",
@@ -458,7 +583,9 @@
       "room": "Lightning Stage",
       "start": 1793700600000,
       "doNotRecord": false,
-      "card": "cards/GKLUZN.jpg"
+      "cards": {
+        "1920x1080": "cards/GKLUZN-1920x1080.jpg"
+      }
     },
     {
       "code": "BKVXUV",
@@ -467,7 +594,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793700900000,
       "doNotRecord": false,
-      "card": "cards/BKVXUV.jpg"
+      "cards": {
+        "1680x1008": "cards/BKVXUV-1680x1008.jpg",
+        "1920x1080": "cards/BKVXUV-1920x1080.jpg"
+      }
     },
     {
       "code": "TL8SNH",
@@ -476,7 +606,9 @@
       "room": "Music stage",
       "start": 1793701800000,
       "doNotRecord": false,
-      "card": "cards/TL8SNH.jpg"
+      "cards": {
+        "1920x1080": "cards/TL8SNH-1920x1080.jpg"
+      }
     },
     {
       "code": "RGSKXT",
@@ -485,7 +617,10 @@
       "room": "Lotus Stage 3",
       "start": 1793701800000,
       "doNotRecord": false,
-      "card": "cards/RGSKXT.jpg"
+      "cards": {
+        "3192x1512": "cards/RGSKXT-3192x1512.jpg",
+        "1920x1080": "cards/RGSKXT-1920x1080.jpg"
+      }
     },
     {
       "code": "BBJKCJ",
@@ -494,7 +629,9 @@
       "room": "Lightning Stage",
       "start": 1793701800000,
       "doNotRecord": false,
-      "card": "cards/BBJKCJ.jpg"
+      "cards": {
+        "1920x1080": "cards/BBJKCJ-1920x1080.jpg"
+      }
     },
     {
       "code": "HSSQDY",
@@ -503,7 +640,10 @@
       "room": "Lotus Stage 2",
       "start": 1793701800000,
       "doNotRecord": false,
-      "card": "cards/HSSQDY.jpg"
+      "cards": {
+        "4032x1512": "cards/HSSQDY-4032x1512.jpg",
+        "1920x1080": "cards/HSSQDY-1920x1080.jpg"
+      }
     },
     {
       "code": "EGY3JH",
@@ -512,7 +652,10 @@
       "room": "Community Led Stage",
       "start": 1793701800000,
       "doNotRecord": false,
-      "card": "cards/EGY3JH.jpg"
+      "cards": {
+        "2016x1176": "cards/EGY3JH-2016x1176.jpg",
+        "1920x1080": "cards/EGY3JH-1920x1080.jpg"
+      }
     },
     {
       "code": "YQEHZN",
@@ -521,7 +664,10 @@
       "room": "Lotus Stage 1",
       "start": 1793701800000,
       "doNotRecord": false,
-      "card": "cards/YQEHZN.jpg"
+      "cards": {
+        "3192x1512": "cards/YQEHZN-3192x1512.jpg",
+        "1920x1080": "cards/YQEHZN-1920x1080.jpg"
+      }
     },
     {
       "code": "HPREFJ",
@@ -530,7 +676,9 @@
       "room": "Lightning Stage",
       "start": 1793702400000,
       "doNotRecord": false,
-      "card": "cards/HPREFJ.jpg"
+      "cards": {
+        "1920x1080": "cards/HPREFJ-1920x1080.jpg"
+      }
     },
     {
       "code": "CPNQHC",
@@ -539,7 +687,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793702700000,
       "doNotRecord": false,
-      "card": "cards/CPNQHC.jpg"
+      "cards": {
+        "1680x1008": "cards/CPNQHC-1680x1008.jpg",
+        "1920x1080": "cards/CPNQHC-1920x1080.jpg"
+      }
     },
     {
       "code": "AYFF89",
@@ -548,7 +699,9 @@
       "room": "Lightning Stage",
       "start": 1793703000000,
       "doNotRecord": false,
-      "card": "cards/AYFF89.jpg"
+      "cards": {
+        "1920x1080": "cards/AYFF89-1920x1080.jpg"
+      }
     },
     {
       "code": "LDY9RZ",
@@ -557,7 +710,9 @@
       "room": "Lightning Stage",
       "start": 1793703600000,
       "doNotRecord": false,
-      "card": "cards/LDY9RZ.jpg"
+      "cards": {
+        "1920x1080": "cards/LDY9RZ-1920x1080.jpg"
+      }
     },
     {
       "code": "KMWUNZ",
@@ -566,7 +721,10 @@
       "room": "Lotus Stage 2",
       "start": 1793703600000,
       "doNotRecord": false,
-      "card": "cards/KMWUNZ.jpg"
+      "cards": {
+        "4032x1512": "cards/KMWUNZ-4032x1512.jpg",
+        "1920x1080": "cards/KMWUNZ-1920x1080.jpg"
+      }
     },
     {
       "code": "QFBFW9",
@@ -575,7 +733,10 @@
       "room": "Lotus Stage 1",
       "start": 1793703600000,
       "doNotRecord": false,
-      "card": "cards/QFBFW9.jpg"
+      "cards": {
+        "3192x1512": "cards/QFBFW9-3192x1512.jpg",
+        "1920x1080": "cards/QFBFW9-1920x1080.jpg"
+      }
     },
     {
       "code": "8USRE9",
@@ -584,7 +745,10 @@
       "room": "Lotus Stage 3",
       "start": 1793703600000,
       "doNotRecord": false,
-      "card": "cards/8USRE9.jpg"
+      "cards": {
+        "3192x1512": "cards/8USRE9-3192x1512.jpg",
+        "1920x1080": "cards/8USRE9-1920x1080.jpg"
+      }
     },
     {
       "code": "VFDA3Z",
@@ -593,7 +757,9 @@
       "room": "Lightning Stage",
       "start": 1793704200000,
       "doNotRecord": false,
-      "card": "cards/VFDA3Z.jpg"
+      "cards": {
+        "1920x1080": "cards/VFDA3Z-1920x1080.jpg"
+      }
     },
     {
       "code": "DKKHA9",
@@ -602,7 +768,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793704500000,
       "doNotRecord": false,
-      "card": "cards/DKKHA9.jpg"
+      "cards": {
+        "1680x1008": "cards/DKKHA9-1680x1008.jpg",
+        "1920x1080": "cards/DKKHA9-1920x1080.jpg"
+      }
     },
     {
       "code": "9R3PW8",
@@ -611,7 +780,9 @@
       "room": "Workshop 1",
       "start": 1793704500000,
       "doNotRecord": false,
-      "card": "cards/9R3PW8.jpg"
+      "cards": {
+        "1920x1080": "cards/9R3PW8-1920x1080.jpg"
+      }
     },
     {
       "code": "3PQZF8",
@@ -620,7 +791,9 @@
       "room": "Music stage",
       "start": 1793705400000,
       "doNotRecord": false,
-      "card": "cards/3PQZF8.jpg"
+      "cards": {
+        "1920x1080": "cards/3PQZF8-1920x1080.jpg"
+      }
     },
     {
       "code": "8FN8MW",
@@ -629,7 +802,10 @@
       "room": "Lotus Stage 3",
       "start": 1793705400000,
       "doNotRecord": false,
-      "card": "cards/8FN8MW.jpg"
+      "cards": {
+        "3192x1512": "cards/8FN8MW-3192x1512.jpg",
+        "1920x1080": "cards/8FN8MW-1920x1080.jpg"
+      }
     },
     {
       "code": "X8SS73",
@@ -638,7 +814,10 @@
       "room": "Lotus Stage 2",
       "start": 1793705400000,
       "doNotRecord": false,
-      "card": "cards/X8SS73.jpg"
+      "cards": {
+        "4032x1512": "cards/X8SS73-4032x1512.jpg",
+        "1920x1080": "cards/X8SS73-1920x1080.jpg"
+      }
     },
     {
       "code": "RFHE93",
@@ -647,7 +826,10 @@
       "room": "Lotus Stage 1",
       "start": 1793705400000,
       "doNotRecord": false,
-      "card": "cards/RFHE93.jpg"
+      "cards": {
+        "3192x1512": "cards/RFHE93-3192x1512.jpg",
+        "1920x1080": "cards/RFHE93-1920x1080.jpg"
+      }
     },
     {
       "code": "MUGWDC",
@@ -656,7 +838,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793706300000,
       "doNotRecord": false,
-      "card": "cards/MUGWDC.jpg"
+      "cards": {
+        "1680x1008": "cards/MUGWDC-1680x1008.jpg",
+        "1920x1080": "cards/MUGWDC-1920x1080.jpg"
+      }
     },
     {
       "code": "33TGAH",
@@ -665,7 +850,9 @@
       "room": "Music stage",
       "start": 1793764800000,
       "doNotRecord": false,
-      "card": "cards/33TGAH.jpg"
+      "cards": {
+        "1920x1080": "cards/33TGAH-1920x1080.jpg"
+      }
     },
     {
       "code": "YS8PJG",
@@ -674,7 +861,10 @@
       "room": "Community Led Stage",
       "start": 1793765700000,
       "doNotRecord": false,
-      "card": "cards/YS8PJG.jpg"
+      "cards": {
+        "2016x1176": "cards/YS8PJG-2016x1176.jpg",
+        "1920x1080": "cards/YS8PJG-1920x1080.jpg"
+      }
     },
     {
       "code": "L7Y9A9",
@@ -683,7 +873,9 @@
       "room": "Music stage",
       "start": 1793766000000,
       "doNotRecord": false,
-      "card": "cards/L7Y9A9.jpg"
+      "cards": {
+        "1920x1080": "cards/L7Y9A9-1920x1080.jpg"
+      }
     },
     {
       "code": "KUGUWW",
@@ -692,7 +884,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793766600000,
       "doNotRecord": false,
-      "card": "cards/KUGUWW.jpg"
+      "cards": {
+        "1680x1008": "cards/KUGUWW-1680x1008.jpg",
+        "1920x1080": "cards/KUGUWW-1920x1080.jpg"
+      }
     },
     {
       "code": "TQNEJV",
@@ -701,7 +896,10 @@
       "room": "Lotus Stage 1",
       "start": 1793766600000,
       "doNotRecord": false,
-      "card": "cards/TQNEJV.jpg"
+      "cards": {
+        "3192x1512": "cards/TQNEJV-3192x1512.jpg",
+        "1920x1080": "cards/TQNEJV-1920x1080.jpg"
+      }
     },
     {
       "code": "MLYHCE",
@@ -710,7 +908,10 @@
       "room": "Lotus Stage 2",
       "start": 1793766600000,
       "doNotRecord": false,
-      "card": "cards/MLYHCE.jpg"
+      "cards": {
+        "4032x1512": "cards/MLYHCE-4032x1512.jpg",
+        "1920x1080": "cards/MLYHCE-1920x1080.jpg"
+      }
     },
     {
       "code": "PTPUZY",
@@ -719,7 +920,10 @@
       "room": "Community Led Stage",
       "start": 1793766600000,
       "doNotRecord": false,
-      "card": "cards/PTPUZY.jpg"
+      "cards": {
+        "2016x1176": "cards/PTPUZY-2016x1176.jpg",
+        "1920x1080": "cards/PTPUZY-1920x1080.jpg"
+      }
     },
     {
       "code": "DYTWBF",
@@ -728,7 +932,10 @@
       "room": "Lotus Stage 3",
       "start": 1793766600000,
       "doNotRecord": false,
-      "card": "cards/DYTWBF.jpg"
+      "cards": {
+        "3192x1512": "cards/DYTWBF-3192x1512.jpg",
+        "1920x1080": "cards/DYTWBF-1920x1080.jpg"
+      }
     },
     {
       "code": "BYCGFQ",
@@ -737,7 +944,9 @@
       "room": "Workshop 2",
       "start": 1793766600000,
       "doNotRecord": false,
-      "card": "cards/BYCGFQ.jpg"
+      "cards": {
+        "1920x1080": "cards/BYCGFQ-1920x1080.jpg"
+      }
     },
     {
       "code": "CUPZ8H",
@@ -746,7 +955,9 @@
       "room": "Workshop 1",
       "start": 1793766600000,
       "doNotRecord": false,
-      "card": "cards/CUPZ8H.jpg"
+      "cards": {
+        "1920x1080": "cards/CUPZ8H-1920x1080.jpg"
+      }
     },
     {
       "code": "LZ8DKM",
@@ -755,7 +966,9 @@
       "room": "Lightning Stage",
       "start": 1793766600000,
       "doNotRecord": false,
-      "card": "cards/LZ8DKM.jpg"
+      "cards": {
+        "1920x1080": "cards/LZ8DKM-1920x1080.jpg"
+      }
     },
     {
       "code": "NMVTFA",
@@ -764,7 +977,9 @@
       "room": "Lightning Stage",
       "start": 1793767200000,
       "doNotRecord": false,
-      "card": "cards/NMVTFA.jpg"
+      "cards": {
+        "1920x1080": "cards/NMVTFA-1920x1080.jpg"
+      }
     },
     {
       "code": "ZDFYFR",
@@ -773,7 +988,9 @@
       "room": "Workshop 2",
       "start": 1793767800000,
       "doNotRecord": false,
-      "card": "cards/ZDFYFR.jpg"
+      "cards": {
+        "1920x1080": "cards/ZDFYFR-1920x1080.jpg"
+      }
     },
     {
       "code": "XFNQVA",
@@ -782,7 +999,9 @@
       "room": "Lightning Stage",
       "start": 1793767800000,
       "doNotRecord": false,
-      "card": "cards/XFNQVA.jpg"
+      "cards": {
+        "1920x1080": "cards/XFNQVA-1920x1080.jpg"
+      }
     },
     {
       "code": "7KPUFY",
@@ -791,7 +1010,9 @@
       "room": "Music stage",
       "start": 1793768100000,
       "doNotRecord": false,
-      "card": "cards/7KPUFY.jpg"
+      "cards": {
+        "1920x1080": "cards/7KPUFY-1920x1080.jpg"
+      }
     },
     {
       "code": "KM7DLM",
@@ -800,7 +1021,10 @@
       "room": "Lotus Stage 2",
       "start": 1793768400000,
       "doNotRecord": false,
-      "card": "cards/KM7DLM.jpg"
+      "cards": {
+        "4032x1512": "cards/KM7DLM-4032x1512.jpg",
+        "1920x1080": "cards/KM7DLM-1920x1080.jpg"
+      }
     },
     {
       "code": "R3WSN8",
@@ -809,7 +1033,10 @@
       "room": "Lotus Stage 3",
       "start": 1793768400000,
       "doNotRecord": false,
-      "card": "cards/R3WSN8.jpg"
+      "cards": {
+        "3192x1512": "cards/R3WSN8-3192x1512.jpg",
+        "1920x1080": "cards/R3WSN8-1920x1080.jpg"
+      }
     },
     {
       "code": "TC3B77",
@@ -818,7 +1045,10 @@
       "room": "Lotus Stage 1",
       "start": 1793768400000,
       "doNotRecord": false,
-      "card": "cards/TC3B77.jpg"
+      "cards": {
+        "3192x1512": "cards/TC3B77-3192x1512.jpg",
+        "1920x1080": "cards/TC3B77-1920x1080.jpg"
+      }
     },
     {
       "code": "J8KCWU",
@@ -827,7 +1057,9 @@
       "room": "Lightning Stage",
       "start": 1793768400000,
       "doNotRecord": false,
-      "card": "cards/J8KCWU.jpg"
+      "cards": {
+        "1920x1080": "cards/J8KCWU-1920x1080.jpg"
+      }
     },
     {
       "code": "CPKL7K",
@@ -836,7 +1068,9 @@
       "room": "Workshop 2",
       "start": 1793769000000,
       "doNotRecord": false,
-      "card": "cards/CPKL7K.jpg"
+      "cards": {
+        "1920x1080": "cards/CPKL7K-1920x1080.jpg"
+      }
     },
     {
       "code": "LXDNUG",
@@ -845,7 +1079,10 @@
       "room": "Community Led Stage",
       "start": 1793769000000,
       "doNotRecord": false,
-      "card": "cards/LXDNUG.jpg"
+      "cards": {
+        "2016x1176": "cards/LXDNUG-2016x1176.jpg",
+        "1920x1080": "cards/LXDNUG-1920x1080.jpg"
+      }
     },
     {
       "code": "9LGUTG",
@@ -854,7 +1091,9 @@
       "room": "Lightning Stage",
       "start": 1793769600000,
       "doNotRecord": false,
-      "card": "cards/9LGUTG.jpg"
+      "cards": {
+        "1920x1080": "cards/9LGUTG-1920x1080.jpg"
+      }
     },
     {
       "code": "M8RFSS",
@@ -863,7 +1102,9 @@
       "room": "Music stage",
       "start": 1793770200000,
       "doNotRecord": false,
-      "card": "cards/M8RFSS.jpg"
+      "cards": {
+        "1920x1080": "cards/M8RFSS-1920x1080.jpg"
+      }
     },
     {
       "code": "ACGBRX",
@@ -872,7 +1113,9 @@
       "room": "Workshop 1",
       "start": 1793770200000,
       "doNotRecord": false,
-      "card": "cards/ACGBRX.jpg"
+      "cards": {
+        "1920x1080": "cards/ACGBRX-1920x1080.jpg"
+      }
     },
     {
       "code": "GJKTYE",
@@ -881,7 +1124,10 @@
       "room": "Lotus Stage 1",
       "start": 1793770200000,
       "doNotRecord": false,
-      "card": "cards/GJKTYE.jpg"
+      "cards": {
+        "3192x1512": "cards/GJKTYE-3192x1512.jpg",
+        "1920x1080": "cards/GJKTYE-1920x1080.jpg"
+      }
     },
     {
       "code": "97BSTL",
@@ -890,7 +1136,10 @@
       "room": "Lotus Stage 2",
       "start": 1793770200000,
       "doNotRecord": false,
-      "card": "cards/97BSTL.jpg"
+      "cards": {
+        "4032x1512": "cards/97BSTL-4032x1512.jpg",
+        "1920x1080": "cards/97BSTL-1920x1080.jpg"
+      }
     },
     {
       "code": "BRPWB3",
@@ -899,7 +1148,9 @@
       "room": "Workshop 2",
       "start": 1793770200000,
       "doNotRecord": false,
-      "card": "cards/BRPWB3.jpg"
+      "cards": {
+        "1920x1080": "cards/BRPWB3-1920x1080.jpg"
+      }
     },
     {
       "code": "LXLJYN",
@@ -908,7 +1159,9 @@
       "room": "Lightning Stage",
       "start": 1793770200000,
       "doNotRecord": false,
-      "card": "cards/LXLJYN.jpg"
+      "cards": {
+        "1920x1080": "cards/LXLJYN-1920x1080.jpg"
+      }
     },
     {
       "code": "H9HGER",
@@ -917,7 +1170,10 @@
       "room": "Lotus Stage 3",
       "start": 1793770200000,
       "doNotRecord": false,
-      "card": "cards/H9HGER.jpg"
+      "cards": {
+        "3192x1512": "cards/H9HGER-3192x1512.jpg",
+        "1920x1080": "cards/H9HGER-1920x1080.jpg"
+      }
     },
     {
       "code": "VNLG3N",
@@ -926,7 +1182,9 @@
       "room": "Lightning Stage",
       "start": 1793771400000,
       "doNotRecord": false,
-      "card": "cards/VNLG3N.jpg"
+      "cards": {
+        "1920x1080": "cards/VNLG3N-1920x1080.jpg"
+      }
     },
     {
       "code": "RVFWVW",
@@ -935,7 +1193,10 @@
       "room": "Community Led Stage",
       "start": 1793771400000,
       "doNotRecord": false,
-      "card": "cards/RVFWVW.jpg"
+      "cards": {
+        "2016x1176": "cards/RVFWVW-2016x1176.jpg",
+        "1920x1080": "cards/RVFWVW-1920x1080.jpg"
+      }
     },
     {
       "code": "CYMQDQ",
@@ -944,7 +1205,9 @@
       "room": "Workshop 2",
       "start": 1793771400000,
       "doNotRecord": false,
-      "card": "cards/CYMQDQ.jpg"
+      "cards": {
+        "1920x1080": "cards/CYMQDQ-1920x1080.jpg"
+      }
     },
     {
       "code": "LMNFPU",
@@ -953,7 +1216,10 @@
       "room": "Lotus Stage 1",
       "start": 1793772000000,
       "doNotRecord": false,
-      "card": "cards/LMNFPU.jpg"
+      "cards": {
+        "3192x1512": "cards/LMNFPU-3192x1512.jpg",
+        "1920x1080": "cards/LMNFPU-1920x1080.jpg"
+      }
     },
     {
       "code": "UXFPPT",
@@ -962,7 +1228,10 @@
       "room": "Lotus Stage 3",
       "start": 1793772000000,
       "doNotRecord": false,
-      "card": "cards/UXFPPT.jpg"
+      "cards": {
+        "3192x1512": "cards/UXFPPT-3192x1512.jpg",
+        "1920x1080": "cards/UXFPPT-1920x1080.jpg"
+      }
     },
     {
       "code": "DLTYES",
@@ -971,7 +1240,10 @@
       "room": "Lotus Stage 2",
       "start": 1793772000000,
       "doNotRecord": false,
-      "card": "cards/DLTYES.jpg"
+      "cards": {
+        "4032x1512": "cards/DLTYES-4032x1512.jpg",
+        "1920x1080": "cards/DLTYES-1920x1080.jpg"
+      }
     },
     {
       "code": "BUMGRG",
@@ -980,7 +1252,9 @@
       "room": "Lightning Stage",
       "start": 1793772000000,
       "doNotRecord": false,
-      "card": "cards/BUMGRG.jpg"
+      "cards": {
+        "1920x1080": "cards/BUMGRG-1920x1080.jpg"
+      }
     },
     {
       "code": "PX8KXP",
@@ -989,7 +1263,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793772000000,
       "doNotRecord": false,
-      "card": "cards/PX8KXP.jpg"
+      "cards": {
+        "1680x1008": "cards/PX8KXP-1680x1008.jpg",
+        "1920x1080": "cards/PX8KXP-1920x1080.jpg"
+      }
     },
     {
       "code": "RFCKTH",
@@ -998,7 +1275,9 @@
       "room": "Workshop 2",
       "start": 1793772600000,
       "doNotRecord": false,
-      "card": "cards/RFCKTH.jpg"
+      "cards": {
+        "1920x1080": "cards/RFCKTH-1920x1080.jpg"
+      }
     },
     {
       "code": "JFMYXJ",
@@ -1007,7 +1286,9 @@
       "room": "Lightning Stage",
       "start": 1793772600000,
       "doNotRecord": false,
-      "card": "cards/JFMYXJ.jpg"
+      "cards": {
+        "1920x1080": "cards/JFMYXJ-1920x1080.jpg"
+      }
     },
     {
       "code": "SKCSVQ",
@@ -1016,7 +1297,10 @@
       "room": "Community Led Stage",
       "start": 1793772600000,
       "doNotRecord": false,
-      "card": "cards/SKCSVQ.jpg"
+      "cards": {
+        "2016x1176": "cards/SKCSVQ-2016x1176.jpg",
+        "1920x1080": "cards/SKCSVQ-1920x1080.jpg"
+      }
     },
     {
       "code": "KWXPU8",
@@ -1025,7 +1309,9 @@
       "room": "Lightning Stage",
       "start": 1793773200000,
       "doNotRecord": false,
-      "card": "cards/KWXPU8.jpg"
+      "cards": {
+        "1920x1080": "cards/KWXPU8-1920x1080.jpg"
+      }
     },
     {
       "code": "XNXTCE",
@@ -1034,7 +1320,10 @@
       "room": "Lotus Stage 2",
       "start": 1793773800000,
       "doNotRecord": false,
-      "card": "cards/XNXTCE.jpg"
+      "cards": {
+        "4032x1512": "cards/XNXTCE-4032x1512.jpg",
+        "1920x1080": "cards/XNXTCE-1920x1080.jpg"
+      }
     },
     {
       "code": "ZMUN7G",
@@ -1043,7 +1332,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793773800000,
       "doNotRecord": false,
-      "card": "cards/ZMUN7G.jpg"
+      "cards": {
+        "1680x1008": "cards/ZMUN7G-1680x1008.jpg",
+        "1920x1080": "cards/ZMUN7G-1920x1080.jpg"
+      }
     },
     {
       "code": "CXFQUJ",
@@ -1052,7 +1344,9 @@
       "room": "Workshop 2",
       "start": 1793773800000,
       "doNotRecord": false,
-      "card": "cards/CXFQUJ.jpg"
+      "cards": {
+        "1920x1080": "cards/CXFQUJ-1920x1080.jpg"
+      }
     },
     {
       "code": "MLCEKY",
@@ -1061,7 +1355,9 @@
       "room": "Lightning Stage",
       "start": 1793773800000,
       "doNotRecord": false,
-      "card": "cards/MLCEKY.jpg"
+      "cards": {
+        "1920x1080": "cards/MLCEKY-1920x1080.jpg"
+      }
     },
     {
       "code": "BCLSJF",
@@ -1070,7 +1366,9 @@
       "room": "Workshop 1",
       "start": 1793773800000,
       "doNotRecord": false,
-      "card": "cards/BCLSJF.jpg"
+      "cards": {
+        "1920x1080": "cards/BCLSJF-1920x1080.jpg"
+      }
     },
     {
       "code": "ZCDYYW",
@@ -1079,7 +1377,9 @@
       "room": "Lightning Stage",
       "start": 1793774400000,
       "doNotRecord": false,
-      "card": "cards/ZCDYYW.jpg"
+      "cards": {
+        "1920x1080": "cards/ZCDYYW-1920x1080.jpg"
+      }
     },
     {
       "code": "YWDXEQ",
@@ -1088,7 +1388,10 @@
       "room": "Community Led Stage",
       "start": 1793775000000,
       "doNotRecord": false,
-      "card": "cards/YWDXEQ.jpg"
+      "cards": {
+        "2016x1176": "cards/YWDXEQ-2016x1176.jpg",
+        "1920x1080": "cards/YWDXEQ-1920x1080.jpg"
+      }
     },
     {
       "code": "GNVKGQ",
@@ -1097,7 +1400,9 @@
       "room": "Lightning Stage",
       "start": 1793775000000,
       "doNotRecord": false,
-      "card": "cards/GNVKGQ.jpg"
+      "cards": {
+        "1920x1080": "cards/GNVKGQ-1920x1080.jpg"
+      }
     },
     {
       "code": "YSMVJE",
@@ -1106,7 +1411,10 @@
       "room": "Lotus Stage 2",
       "start": 1793775600000,
       "doNotRecord": false,
-      "card": "cards/YSMVJE.jpg"
+      "cards": {
+        "4032x1512": "cards/YSMVJE-4032x1512.jpg",
+        "1920x1080": "cards/YSMVJE-1920x1080.jpg"
+      }
     },
     {
       "code": "3KEDRA",
@@ -1115,7 +1423,9 @@
       "room": "Music stage",
       "start": 1793776200000,
       "doNotRecord": false,
-      "card": "cards/3KEDRA.jpg"
+      "cards": {
+        "1920x1080": "cards/3KEDRA-1920x1080.jpg"
+      }
     },
     {
       "code": "LQ7QCG",
@@ -1124,7 +1434,10 @@
       "room": "Lotus Stage 3",
       "start": 1793777400000,
       "doNotRecord": false,
-      "card": "cards/LQ7QCG.jpg"
+      "cards": {
+        "3192x1512": "cards/LQ7QCG-3192x1512.jpg",
+        "1920x1080": "cards/LQ7QCG-1920x1080.jpg"
+      }
     },
     {
       "code": "KPMNKY",
@@ -1133,7 +1446,10 @@
       "room": "Lotus Stage 1",
       "start": 1793777400000,
       "doNotRecord": false,
-      "card": "cards/KPMNKY.jpg"
+      "cards": {
+        "3192x1512": "cards/KPMNKY-3192x1512.jpg",
+        "1920x1080": "cards/KPMNKY-1920x1080.jpg"
+      }
     },
     {
       "code": "KRA8XX",
@@ -1142,7 +1458,9 @@
       "room": "Workshop 2",
       "start": 1793778600000,
       "doNotRecord": false,
-      "card": "cards/KRA8XX.jpg"
+      "cards": {
+        "1920x1080": "cards/KRA8XX-1920x1080.jpg"
+      }
     },
     {
       "code": "BLYH7C",
@@ -1151,7 +1469,10 @@
       "room": "Lotus Stage 3",
       "start": 1793779200000,
       "doNotRecord": false,
-      "card": "cards/BLYH7C.jpg"
+      "cards": {
+        "3192x1512": "cards/BLYH7C-3192x1512.jpg",
+        "1920x1080": "cards/BLYH7C-1920x1080.jpg"
+      }
     },
     {
       "code": "8D8G7U",
@@ -1160,7 +1481,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793779200000,
       "doNotRecord": false,
-      "card": "cards/8D8G7U.jpg"
+      "cards": {
+        "1680x1008": "cards/8D8G7U-1680x1008.jpg",
+        "1920x1080": "cards/8D8G7U-1920x1080.jpg"
+      }
     },
     {
       "code": "D98PZT",
@@ -1169,7 +1493,10 @@
       "room": "Lotus Stage 1",
       "start": 1793779200000,
       "doNotRecord": false,
-      "card": "cards/D98PZT.jpg"
+      "cards": {
+        "3192x1512": "cards/D98PZT-3192x1512.jpg",
+        "1920x1080": "cards/D98PZT-1920x1080.jpg"
+      }
     },
     {
       "code": "VTMCCJ",
@@ -1178,7 +1505,9 @@
       "room": "Lightning Stage",
       "start": 1793779200000,
       "doNotRecord": false,
-      "card": "cards/VTMCCJ.jpg"
+      "cards": {
+        "1920x1080": "cards/VTMCCJ-1920x1080.jpg"
+      }
     },
     {
       "code": "M7BQCG",
@@ -1187,7 +1516,9 @@
       "room": "Workshop 2",
       "start": 1793779800000,
       "doNotRecord": false,
-      "card": "cards/M7BQCG.jpg"
+      "cards": {
+        "1920x1080": "cards/M7BQCG-1920x1080.jpg"
+      }
     },
     {
       "code": "TTRVYX",
@@ -1196,7 +1527,9 @@
       "room": "Music stage",
       "start": 1793780400000,
       "doNotRecord": false,
-      "card": "cards/TTRVYX.jpg"
+      "cards": {
+        "1920x1080": "cards/TTRVYX-1920x1080.jpg"
+      }
     },
     {
       "code": "PCQRRH",
@@ -1205,7 +1538,9 @@
       "room": "Workshop 1",
       "start": 1793781000000,
       "doNotRecord": false,
-      "card": "cards/PCQRRH.jpg"
+      "cards": {
+        "1920x1080": "cards/PCQRRH-1920x1080.jpg"
+      }
     },
     {
       "code": "V897WY",
@@ -1214,7 +1549,9 @@
       "room": "Workshop 2",
       "start": 1793781000000,
       "doNotRecord": false,
-      "card": "cards/V897WY.jpg"
+      "cards": {
+        "1920x1080": "cards/V897WY-1920x1080.jpg"
+      }
     },
     {
       "code": "SFF9N9",
@@ -1223,7 +1560,9 @@
       "room": "Lightning Stage",
       "start": 1793781000000,
       "doNotRecord": false,
-      "card": "cards/SFF9N9.jpg"
+      "cards": {
+        "1920x1080": "cards/SFF9N9-1920x1080.jpg"
+      }
     },
     {
       "code": "JQRC98",
@@ -1232,7 +1571,10 @@
       "room": "Lotus Stage 3",
       "start": 1793781000000,
       "doNotRecord": false,
-      "card": "cards/JQRC98.jpg"
+      "cards": {
+        "3192x1512": "cards/JQRC98-3192x1512.jpg",
+        "1920x1080": "cards/JQRC98-1920x1080.jpg"
+      }
     },
     {
       "code": "U7DBCW",
@@ -1241,7 +1583,10 @@
       "room": "Community Led Stage",
       "start": 1793781000000,
       "doNotRecord": false,
-      "card": "cards/U7DBCW.jpg"
+      "cards": {
+        "2016x1176": "cards/U7DBCW-2016x1176.jpg",
+        "1920x1080": "cards/U7DBCW-1920x1080.jpg"
+      }
     },
     {
       "code": "MJBATS",
@@ -1250,7 +1595,10 @@
       "room": "Lotus Stage 2",
       "start": 1793781000000,
       "doNotRecord": false,
-      "card": "cards/MJBATS.jpg"
+      "cards": {
+        "4032x1512": "cards/MJBATS-4032x1512.jpg",
+        "1920x1080": "cards/MJBATS-1920x1080.jpg"
+      }
     },
     {
       "code": "WHU9HR",
@@ -1259,7 +1607,10 @@
       "room": "Lotus Stage 1",
       "start": 1793781000000,
       "doNotRecord": false,
-      "card": "cards/WHU9HR.jpg"
+      "cards": {
+        "3192x1512": "cards/WHU9HR-3192x1512.jpg",
+        "1920x1080": "cards/WHU9HR-1920x1080.jpg"
+      }
     },
     {
       "code": "TWALMN",
@@ -1268,7 +1619,9 @@
       "room": "Workshop 2",
       "start": 1793782200000,
       "doNotRecord": false,
-      "card": "cards/TWALMN.jpg"
+      "cards": {
+        "1920x1080": "cards/TWALMN-1920x1080.jpg"
+      }
     },
     {
       "code": "VN7HYM",
@@ -1277,7 +1630,10 @@
       "room": "Lotus Stage 3",
       "start": 1793782800000,
       "doNotRecord": false,
-      "card": "cards/VN7HYM.jpg"
+      "cards": {
+        "3192x1512": "cards/VN7HYM-3192x1512.jpg",
+        "1920x1080": "cards/VN7HYM-1920x1080.jpg"
+      }
     },
     {
       "code": "A3BQGR",
@@ -1286,7 +1642,10 @@
       "room": "Lotus Stage 1",
       "start": 1793782800000,
       "doNotRecord": false,
-      "card": "cards/A3BQGR.jpg"
+      "cards": {
+        "3192x1512": "cards/A3BQGR-3192x1512.jpg",
+        "1920x1080": "cards/A3BQGR-1920x1080.jpg"
+      }
     },
     {
       "code": "RBPW3G",
@@ -1295,7 +1654,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793782800000,
       "doNotRecord": false,
-      "card": "cards/RBPW3G.jpg"
+      "cards": {
+        "1680x1008": "cards/RBPW3G-1680x1008.jpg",
+        "1920x1080": "cards/RBPW3G-1920x1080.jpg"
+      }
     },
     {
       "code": "LC797R",
@@ -1304,7 +1666,9 @@
       "room": "Lightning Stage",
       "start": 1793782800000,
       "doNotRecord": false,
-      "card": "cards/LC797R.jpg"
+      "cards": {
+        "1920x1080": "cards/LC797R-1920x1080.jpg"
+      }
     },
     {
       "code": "BTRFXC",
@@ -1313,7 +1677,10 @@
       "room": "Lotus Stage 2",
       "start": 1793782800000,
       "doNotRecord": false,
-      "card": "cards/BTRFXC.jpg"
+      "cards": {
+        "4032x1512": "cards/BTRFXC-4032x1512.jpg",
+        "1920x1080": "cards/BTRFXC-1920x1080.jpg"
+      }
     },
     {
       "code": "XRCSNK",
@@ -1322,7 +1689,9 @@
       "room": "Workshop 2",
       "start": 1793783400000,
       "doNotRecord": false,
-      "card": "cards/XRCSNK.jpg"
+      "cards": {
+        "1920x1080": "cards/XRCSNK-1920x1080.jpg"
+      }
     },
     {
       "code": "LZSPX3",
@@ -1331,7 +1700,9 @@
       "room": "Music stage",
       "start": 1793784600000,
       "doNotRecord": false,
-      "card": "cards/LZSPX3.jpg"
+      "cards": {
+        "1920x1080": "cards/LZSPX3-1920x1080.jpg"
+      }
     },
     {
       "code": "7RNEX7",
@@ -1340,7 +1711,9 @@
       "room": "Lightning Stage",
       "start": 1793784600000,
       "doNotRecord": false,
-      "card": "cards/7RNEX7.jpg"
+      "cards": {
+        "1920x1080": "cards/7RNEX7-1920x1080.jpg"
+      }
     },
     {
       "code": "CQ9MWE",
@@ -1349,7 +1722,9 @@
       "room": "Workshop 2",
       "start": 1793784600000,
       "doNotRecord": false,
-      "card": "cards/CQ9MWE.jpg"
+      "cards": {
+        "1920x1080": "cards/CQ9MWE-1920x1080.jpg"
+      }
     },
     {
       "code": "8WZ7BA",
@@ -1358,7 +1733,10 @@
       "room": "Lotus Stage 2",
       "start": 1793784600000,
       "doNotRecord": false,
-      "card": "cards/8WZ7BA.jpg"
+      "cards": {
+        "4032x1512": "cards/8WZ7BA-4032x1512.jpg",
+        "1920x1080": "cards/8WZ7BA-1920x1080.jpg"
+      }
     },
     {
       "code": "UZLVP3",
@@ -1367,7 +1745,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793784600000,
       "doNotRecord": false,
-      "card": "cards/UZLVP3.jpg"
+      "cards": {
+        "1680x1008": "cards/UZLVP3-1680x1008.jpg",
+        "1920x1080": "cards/UZLVP3-1920x1080.jpg"
+      }
     },
     {
       "code": "RTKLGH",
@@ -1376,7 +1757,10 @@
       "room": "Lotus Stage 3",
       "start": 1793784600000,
       "doNotRecord": false,
-      "card": "cards/RTKLGH.jpg"
+      "cards": {
+        "3192x1512": "cards/RTKLGH-3192x1512.jpg",
+        "1920x1080": "cards/RTKLGH-1920x1080.jpg"
+      }
     },
     {
       "code": "7AVTW8",
@@ -1385,7 +1769,10 @@
       "room": "Lotus Stage 1",
       "start": 1793784600000,
       "doNotRecord": false,
-      "card": "cards/7AVTW8.jpg"
+      "cards": {
+        "3192x1512": "cards/7AVTW8-3192x1512.jpg",
+        "1920x1080": "cards/7AVTW8-1920x1080.jpg"
+      }
     },
     {
       "code": "BP8VAY",
@@ -1394,7 +1781,9 @@
       "room": "Workshop 1",
       "start": 1793784600000,
       "doNotRecord": false,
-      "card": "cards/BP8VAY.jpg"
+      "cards": {
+        "1920x1080": "cards/BP8VAY-1920x1080.jpg"
+      }
     },
     {
       "code": "VCEMDS",
@@ -1403,7 +1792,9 @@
       "room": "Lightning Stage",
       "start": 1793785200000,
       "doNotRecord": false,
-      "card": "cards/VCEMDS.jpg"
+      "cards": {
+        "1920x1080": "cards/VCEMDS-1920x1080.jpg"
+      }
     },
     {
       "code": "8FCR7F",
@@ -1412,7 +1803,9 @@
       "room": "Workshop 2",
       "start": 1793785800000,
       "doNotRecord": false,
-      "card": "cards/8FCR7F.jpg"
+      "cards": {
+        "1920x1080": "cards/8FCR7F-1920x1080.jpg"
+      }
     },
     {
       "code": "NZP7PE",
@@ -1421,7 +1814,9 @@
       "room": "Lightning Stage",
       "start": 1793785800000,
       "doNotRecord": false,
-      "card": "cards/NZP7PE.jpg"
+      "cards": {
+        "1920x1080": "cards/NZP7PE-1920x1080.jpg"
+      }
     },
     {
       "code": "YWBSCW",
@@ -1430,7 +1825,10 @@
       "room": "Lotus Stage 3",
       "start": 1793786400000,
       "doNotRecord": false,
-      "card": "cards/YWBSCW.jpg"
+      "cards": {
+        "3192x1512": "cards/YWBSCW-3192x1512.jpg",
+        "1920x1080": "cards/YWBSCW-1920x1080.jpg"
+      }
     },
     {
       "code": "SMK3T9",
@@ -1439,7 +1837,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793786400000,
       "doNotRecord": false,
-      "card": "cards/SMK3T9.jpg"
+      "cards": {
+        "1680x1008": "cards/SMK3T9-1680x1008.jpg",
+        "1920x1080": "cards/SMK3T9-1920x1080.jpg"
+      }
     },
     {
       "code": "XRTHGP",
@@ -1448,7 +1849,10 @@
       "room": "Lotus Stage 2",
       "start": 1793786400000,
       "doNotRecord": false,
-      "card": "cards/XRTHGP.jpg"
+      "cards": {
+        "4032x1512": "cards/XRTHGP-4032x1512.jpg",
+        "1920x1080": "cards/XRTHGP-1920x1080.jpg"
+      }
     },
     {
       "code": "AYCVPG",
@@ -1457,7 +1861,9 @@
       "room": "Lightning Stage",
       "start": 1793786400000,
       "doNotRecord": false,
-      "card": "cards/AYCVPG.jpg"
+      "cards": {
+        "1920x1080": "cards/AYCVPG-1920x1080.jpg"
+      }
     },
     {
       "code": "ELNRHR",
@@ -1466,7 +1872,10 @@
       "room": "Lotus Stage 1",
       "start": 1793786400000,
       "doNotRecord": false,
-      "card": "cards/ELNRHR.jpg"
+      "cards": {
+        "3192x1512": "cards/ELNRHR-3192x1512.jpg",
+        "1920x1080": "cards/ELNRHR-1920x1080.jpg"
+      }
     },
     {
       "code": "PWDFKG",
@@ -1475,7 +1884,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793787000000,
       "doNotRecord": false,
-      "card": "cards/PWDFKG.jpg"
+      "cards": {
+        "1680x1008": "cards/PWDFKG-1680x1008.jpg",
+        "1920x1080": "cards/PWDFKG-1920x1080.jpg"
+      }
     },
     {
       "code": "FKD3TQ",
@@ -1484,7 +1896,10 @@
       "room": "Community Led Stage",
       "start": 1793787000000,
       "doNotRecord": false,
-      "card": "cards/FKD3TQ.jpg"
+      "cards": {
+        "2016x1176": "cards/FKD3TQ-2016x1176.jpg",
+        "1920x1080": "cards/FKD3TQ-1920x1080.jpg"
+      }
     },
     {
       "code": "UGFPY3",
@@ -1493,7 +1908,9 @@
       "room": "Workshop 2",
       "start": 1793787000000,
       "doNotRecord": false,
-      "card": "cards/UGFPY3.jpg"
+      "cards": {
+        "1920x1080": "cards/UGFPY3-1920x1080.jpg"
+      }
     },
     {
       "code": "3LBXLP",
@@ -1502,7 +1919,9 @@
       "room": "Lightning Stage",
       "start": 1793787000000,
       "doNotRecord": false,
-      "card": "cards/3LBXLP.jpg"
+      "cards": {
+        "1920x1080": "cards/3LBXLP-1920x1080.jpg"
+      }
     },
     {
       "code": "PW7EVT",
@@ -1511,7 +1930,9 @@
       "room": "Lightning Stage",
       "start": 1793787600000,
       "doNotRecord": false,
-      "card": "cards/PW7EVT.jpg"
+      "cards": {
+        "1920x1080": "cards/PW7EVT-1920x1080.jpg"
+      }
     },
     {
       "code": "8YBCQB",
@@ -1520,7 +1941,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793787600000,
       "doNotRecord": false,
-      "card": "cards/8YBCQB.jpg"
+      "cards": {
+        "1680x1008": "cards/8YBCQB-1680x1008.jpg",
+        "1920x1080": "cards/8YBCQB-1920x1080.jpg"
+      }
     },
     {
       "code": "GPHSUE",
@@ -1529,7 +1953,9 @@
       "room": "Workshop 1",
       "start": 1793788200000,
       "doNotRecord": false,
-      "card": "cards/GPHSUE.jpg"
+      "cards": {
+        "1920x1080": "cards/GPHSUE-1920x1080.jpg"
+      }
     },
     {
       "code": "FSHBKP",
@@ -1538,7 +1964,9 @@
       "room": "Music stage",
       "start": 1793788200000,
       "doNotRecord": false,
-      "card": "cards/FSHBKP.jpg"
+      "cards": {
+        "1920x1080": "cards/FSHBKP-1920x1080.jpg"
+      }
     },
     {
       "code": "FUMK8Z",
@@ -1547,7 +1975,10 @@
       "room": "Lotus Stage 3",
       "start": 1793788200000,
       "doNotRecord": false,
-      "card": "cards/FUMK8Z.jpg"
+      "cards": {
+        "3192x1512": "cards/FUMK8Z-3192x1512.jpg",
+        "1920x1080": "cards/FUMK8Z-1920x1080.jpg"
+      }
     },
     {
       "code": "SNJXV7",
@@ -1556,7 +1987,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793788200000,
       "doNotRecord": false,
-      "card": "cards/SNJXV7.jpg"
+      "cards": {
+        "1680x1008": "cards/SNJXV7-1680x1008.jpg",
+        "1920x1080": "cards/SNJXV7-1920x1080.jpg"
+      }
     },
     {
       "code": "NPS3MV",
@@ -1565,7 +1999,9 @@
       "room": "Lightning Stage",
       "start": 1793788200000,
       "doNotRecord": false,
-      "card": "cards/NPS3MV.jpg"
+      "cards": {
+        "1920x1080": "cards/NPS3MV-1920x1080.jpg"
+      }
     },
     {
       "code": "JFV8MH",
@@ -1574,7 +2010,10 @@
       "room": "Community Led Stage",
       "start": 1793788200000,
       "doNotRecord": false,
-      "card": "cards/JFV8MH.jpg"
+      "cards": {
+        "2016x1176": "cards/JFV8MH-2016x1176.jpg",
+        "1920x1080": "cards/JFV8MH-1920x1080.jpg"
+      }
     },
     {
       "code": "7ZJ3EX",
@@ -1583,7 +2022,9 @@
       "room": "Workshop 2",
       "start": 1793788200000,
       "doNotRecord": false,
-      "card": "cards/7ZJ3EX.jpg"
+      "cards": {
+        "1920x1080": "cards/7ZJ3EX-1920x1080.jpg"
+      }
     },
     {
       "code": "HACHAY",
@@ -1592,7 +2033,10 @@
       "room": "Lotus Stage 2",
       "start": 1793788200000,
       "doNotRecord": false,
-      "card": "cards/HACHAY.jpg"
+      "cards": {
+        "4032x1512": "cards/HACHAY-4032x1512.jpg",
+        "1920x1080": "cards/HACHAY-1920x1080.jpg"
+      }
     },
     {
       "code": "9LVW38",
@@ -1601,7 +2045,10 @@
       "room": "Lotus Stage 1",
       "start": 1793788200000,
       "doNotRecord": false,
-      "card": "cards/9LVW38.jpg"
+      "cards": {
+        "3192x1512": "cards/9LVW38-3192x1512.jpg",
+        "1920x1080": "cards/9LVW38-1920x1080.jpg"
+      }
     },
     {
       "code": "UMED8L",
@@ -1610,7 +2057,9 @@
       "room": "Lightning Stage",
       "start": 1793788800000,
       "doNotRecord": false,
-      "card": "cards/UMED8L.jpg"
+      "cards": {
+        "1920x1080": "cards/UMED8L-1920x1080.jpg"
+      }
     },
     {
       "code": "UPPQDQ",
@@ -1619,7 +2068,9 @@
       "room": "Lightning Stage",
       "start": 1793789400000,
       "doNotRecord": false,
-      "card": "cards/UPPQDQ.jpg"
+      "cards": {
+        "1920x1080": "cards/UPPQDQ-1920x1080.jpg"
+      }
     },
     {
       "code": "KRK7JN",
@@ -1628,7 +2079,9 @@
       "room": "Workshop 2",
       "start": 1793789400000,
       "doNotRecord": false,
-      "card": "cards/KRK7JN.jpg"
+      "cards": {
+        "1920x1080": "cards/KRK7JN-1920x1080.jpg"
+      }
     },
     {
       "code": "WX9EGU",
@@ -1637,7 +2090,10 @@
       "room": "Community Led Stage",
       "start": 1793790000000,
       "doNotRecord": false,
-      "card": "cards/WX9EGU.jpg"
+      "cards": {
+        "2016x1176": "cards/WX9EGU-2016x1176.jpg",
+        "1920x1080": "cards/WX9EGU-1920x1080.jpg"
+      }
     },
     {
       "code": "JTDJXA",
@@ -1646,7 +2102,10 @@
       "room": "Lotus Stage 3",
       "start": 1793790000000,
       "doNotRecord": false,
-      "card": "cards/JTDJXA.jpg"
+      "cards": {
+        "3192x1512": "cards/JTDJXA-3192x1512.jpg",
+        "1920x1080": "cards/JTDJXA-1920x1080.jpg"
+      }
     },
     {
       "code": "DWL7DB",
@@ -1655,7 +2114,10 @@
       "room": "Lotus Stage 1",
       "start": 1793790000000,
       "doNotRecord": false,
-      "card": "cards/DWL7DB.jpg"
+      "cards": {
+        "3192x1512": "cards/DWL7DB-3192x1512.jpg",
+        "1920x1080": "cards/DWL7DB-1920x1080.jpg"
+      }
     },
     {
       "code": "Z7MDUP",
@@ -1664,7 +2126,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793790000000,
       "doNotRecord": false,
-      "card": "cards/Z7MDUP.jpg"
+      "cards": {
+        "1680x1008": "cards/Z7MDUP-1680x1008.jpg",
+        "1920x1080": "cards/Z7MDUP-1920x1080.jpg"
+      }
     },
     {
       "code": "KN9XAP",
@@ -1673,7 +2138,9 @@
       "room": "Lightning Stage",
       "start": 1793790600000,
       "doNotRecord": false,
-      "card": "cards/KN9XAP.jpg"
+      "cards": {
+        "1920x1080": "cards/KN9XAP-1920x1080.jpg"
+      }
     },
     {
       "code": "8MKQG3",
@@ -1682,7 +2149,9 @@
       "room": "Lightning Stage",
       "start": 1793791200000,
       "doNotRecord": true,
-      "card": "cards/8MKQG3.jpg"
+      "cards": {
+        "1920x1080": "cards/8MKQG3-1920x1080.jpg"
+      }
     },
     {
       "code": "ZWULGG",
@@ -1691,7 +2160,10 @@
       "room": "Community Led Stage",
       "start": 1793791800000,
       "doNotRecord": false,
-      "card": "cards/ZWULGG.jpg"
+      "cards": {
+        "2016x1176": "cards/ZWULGG-2016x1176.jpg",
+        "1920x1080": "cards/ZWULGG-1920x1080.jpg"
+      }
     },
     {
       "code": "8VLVHJ",
@@ -1700,7 +2172,10 @@
       "room": "Lotus Stage 3",
       "start": 1793791800000,
       "doNotRecord": false,
-      "card": "cards/8VLVHJ.jpg"
+      "cards": {
+        "3192x1512": "cards/8VLVHJ-3192x1512.jpg",
+        "1920x1080": "cards/8VLVHJ-1920x1080.jpg"
+      }
     },
     {
       "code": "YH8WHM",
@@ -1709,7 +2184,9 @@
       "room": "Workshop 1",
       "start": 1793791800000,
       "doNotRecord": false,
-      "card": "cards/YH8WHM.jpg"
+      "cards": {
+        "1920x1080": "cards/YH8WHM-1920x1080.jpg"
+      }
     },
     {
       "code": "MJ7SP9",
@@ -1718,7 +2195,9 @@
       "room": "Lightning Stage",
       "start": 1793791800000,
       "doNotRecord": false,
-      "card": "cards/MJ7SP9.jpg"
+      "cards": {
+        "1920x1080": "cards/MJ7SP9-1920x1080.jpg"
+      }
     },
     {
       "code": "N9KCUV",
@@ -1727,7 +2206,9 @@
       "room": "Music stage",
       "start": 1793791800000,
       "doNotRecord": false,
-      "card": "cards/N9KCUV.jpg"
+      "cards": {
+        "1920x1080": "cards/N9KCUV-1920x1080.jpg"
+      }
     },
     {
       "code": "LV3LQY",
@@ -1736,7 +2217,9 @@
       "room": "Lightning Stage",
       "start": 1793792400000,
       "doNotRecord": false,
-      "card": "cards/LV3LQY.jpg"
+      "cards": {
+        "1920x1080": "cards/LV3LQY-1920x1080.jpg"
+      }
     },
     {
       "code": "WNW89D",
@@ -1745,7 +2228,9 @@
       "room": "Music stage",
       "start": 1793851200000,
       "doNotRecord": false,
-      "card": "cards/WNW89D.jpg"
+      "cards": {
+        "1920x1080": "cards/WNW89D-1920x1080.jpg"
+      }
     },
     {
       "code": "QUYYCQ",
@@ -1754,7 +2239,10 @@
       "room": "Community Led Stage",
       "start": 1793851200000,
       "doNotRecord": false,
-      "card": "cards/QUYYCQ.jpg"
+      "cards": {
+        "2016x1176": "cards/QUYYCQ-2016x1176.jpg",
+        "1920x1080": "cards/QUYYCQ-1920x1080.jpg"
+      }
     },
     {
       "code": "SRSEUH",
@@ -1763,7 +2251,10 @@
       "room": "Community Led Stage",
       "start": 1793852100000,
       "doNotRecord": false,
-      "card": "cards/SRSEUH.jpg"
+      "cards": {
+        "2016x1176": "cards/SRSEUH-2016x1176.jpg",
+        "1920x1080": "cards/SRSEUH-1920x1080.jpg"
+      }
     },
     {
       "code": "AELNGW",
@@ -1772,7 +2263,9 @@
       "room": "Music stage",
       "start": 1793852400000,
       "doNotRecord": false,
-      "card": "cards/AELNGW.jpg"
+      "cards": {
+        "1920x1080": "cards/AELNGW-1920x1080.jpg"
+      }
     },
     {
       "code": "MKZ8KZ",
@@ -1781,7 +2274,9 @@
       "room": "Lightning Stage",
       "start": 1793853000000,
       "doNotRecord": false,
-      "card": "cards/MKZ8KZ.jpg"
+      "cards": {
+        "1920x1080": "cards/MKZ8KZ-1920x1080.jpg"
+      }
     },
     {
       "code": "ZTFKBL",
@@ -1790,7 +2285,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793853000000,
       "doNotRecord": false,
-      "card": "cards/ZTFKBL.jpg"
+      "cards": {
+        "1680x1008": "cards/ZTFKBL-1680x1008.jpg",
+        "1920x1080": "cards/ZTFKBL-1920x1080.jpg"
+      }
     },
     {
       "code": "UW7SA8",
@@ -1799,7 +2297,9 @@
       "room": "Workshop 2",
       "start": 1793853000000,
       "doNotRecord": false,
-      "card": "cards/UW7SA8.jpg"
+      "cards": {
+        "1920x1080": "cards/UW7SA8-1920x1080.jpg"
+      }
     },
     {
       "code": "MU33LB",
@@ -1808,7 +2308,10 @@
       "room": "Lotus Stage 3",
       "start": 1793853000000,
       "doNotRecord": false,
-      "card": "cards/MU33LB.jpg"
+      "cards": {
+        "3192x1512": "cards/MU33LB-3192x1512.jpg",
+        "1920x1080": "cards/MU33LB-1920x1080.jpg"
+      }
     },
     {
       "code": "TP3NS3",
@@ -1817,7 +2320,10 @@
       "room": "Lotus Stage 2",
       "start": 1793853000000,
       "doNotRecord": false,
-      "card": "cards/TP3NS3.jpg"
+      "cards": {
+        "4032x1512": "cards/TP3NS3-4032x1512.jpg",
+        "1920x1080": "cards/TP3NS3-1920x1080.jpg"
+      }
     },
     {
       "code": "HWKQHS",
@@ -1826,7 +2332,10 @@
       "room": "Community Led Stage",
       "start": 1793853000000,
       "doNotRecord": false,
-      "card": "cards/HWKQHS.jpg"
+      "cards": {
+        "2016x1176": "cards/HWKQHS-2016x1176.jpg",
+        "1920x1080": "cards/HWKQHS-1920x1080.jpg"
+      }
     },
     {
       "code": "BZGM7J",
@@ -1835,7 +2344,9 @@
       "room": "Workshop 1",
       "start": 1793853000000,
       "doNotRecord": false,
-      "card": "cards/BZGM7J.jpg"
+      "cards": {
+        "1920x1080": "cards/BZGM7J-1920x1080.jpg"
+      }
     },
     {
       "code": "AHWLQ3",
@@ -1844,7 +2355,9 @@
       "room": "Lightning Stage",
       "start": 1793853300000,
       "doNotRecord": false,
-      "card": "cards/AHWLQ3.jpg"
+      "cards": {
+        "1920x1080": "cards/AHWLQ3-1920x1080.jpg"
+      }
     },
     {
       "code": "WVCKHD",
@@ -1853,7 +2366,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793853600000,
       "doNotRecord": false,
-      "card": "cards/WVCKHD.jpg"
+      "cards": {
+        "1680x1008": "cards/WVCKHD-1680x1008.jpg",
+        "1920x1080": "cards/WVCKHD-1920x1080.jpg"
+      }
     },
     {
       "code": "NGLDUZ",
@@ -1862,7 +2378,10 @@
       "room": "Community Led Stage",
       "start": 1793853900000,
       "doNotRecord": false,
-      "card": "cards/NGLDUZ.jpg"
+      "cards": {
+        "2016x1176": "cards/NGLDUZ-2016x1176.jpg",
+        "1920x1080": "cards/NGLDUZ-1920x1080.jpg"
+      }
     },
     {
       "code": "N3HY8T",
@@ -1871,7 +2390,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793854200000,
       "doNotRecord": false,
-      "card": "cards/N3HY8T.jpg"
+      "cards": {
+        "1680x1008": "cards/N3HY8T-1680x1008.jpg",
+        "1920x1080": "cards/N3HY8T-1920x1080.jpg"
+      }
     },
     {
       "code": "9DPQMF",
@@ -1880,7 +2402,9 @@
       "room": "Music stage",
       "start": 1793854200000,
       "doNotRecord": false,
-      "card": "cards/9DPQMF.jpg"
+      "cards": {
+        "1920x1080": "cards/9DPQMF-1920x1080.jpg"
+      }
     },
     {
       "code": "BEPHDN",
@@ -1889,7 +2413,10 @@
       "room": "Lotus Stage 1",
       "start": 1793854800000,
       "doNotRecord": false,
-      "card": "cards/BEPHDN.jpg"
+      "cards": {
+        "3192x1512": "cards/BEPHDN-3192x1512.jpg",
+        "1920x1080": "cards/BEPHDN-1920x1080.jpg"
+      }
     },
     {
       "code": "KRW7NZ",
@@ -1898,7 +2425,10 @@
       "room": "Lotus Stage 2",
       "start": 1793854800000,
       "doNotRecord": false,
-      "card": "cards/KRW7NZ.jpg"
+      "cards": {
+        "4032x1512": "cards/KRW7NZ-4032x1512.jpg",
+        "1920x1080": "cards/KRW7NZ-1920x1080.jpg"
+      }
     },
     {
       "code": "GDAJNA",
@@ -1907,7 +2437,10 @@
       "room": "Lotus Stage 3",
       "start": 1793854800000,
       "doNotRecord": false,
-      "card": "cards/GDAJNA.jpg"
+      "cards": {
+        "3192x1512": "cards/GDAJNA-3192x1512.jpg",
+        "1920x1080": "cards/GDAJNA-1920x1080.jpg"
+      }
     },
     {
       "code": "FEZBBV",
@@ -1916,7 +2449,10 @@
       "room": "Community Led Stage",
       "start": 1793854800000,
       "doNotRecord": false,
-      "card": "cards/FEZBBV.jpg"
+      "cards": {
+        "2016x1176": "cards/FEZBBV-2016x1176.jpg",
+        "1920x1080": "cards/FEZBBV-1920x1080.jpg"
+      }
     },
     {
       "code": "VTL7YX",
@@ -1925,7 +2461,10 @@
       "room": "Community Led Stage",
       "start": 1793855700000,
       "doNotRecord": false,
-      "card": "cards/VTL7YX.jpg"
+      "cards": {
+        "2016x1176": "cards/VTL7YX-2016x1176.jpg",
+        "1920x1080": "cards/VTL7YX-1920x1080.jpg"
+      }
     },
     {
       "code": "8PPMHL",
@@ -1934,7 +2473,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793856000000,
       "doNotRecord": false,
-      "card": "cards/8PPMHL.jpg"
+      "cards": {
+        "1680x1008": "cards/8PPMHL-1680x1008.jpg",
+        "1920x1080": "cards/8PPMHL-1920x1080.jpg"
+      }
     },
     {
       "code": "FD9ZQQ",
@@ -1943,7 +2485,9 @@
       "room": "Workshop 1",
       "start": 1793856600000,
       "doNotRecord": false,
-      "card": "cards/FD9ZQQ.jpg"
+      "cards": {
+        "1920x1080": "cards/FD9ZQQ-1920x1080.jpg"
+      }
     },
     {
       "code": "KANRJF",
@@ -1952,7 +2496,9 @@
       "room": "Workshop 2",
       "start": 1793856600000,
       "doNotRecord": false,
-      "card": "cards/KANRJF.jpg"
+      "cards": {
+        "1920x1080": "cards/KANRJF-1920x1080.jpg"
+      }
     },
     {
       "code": "MUPDSA",
@@ -1961,7 +2507,10 @@
       "room": "Lotus Stage 3",
       "start": 1793856600000,
       "doNotRecord": false,
-      "card": "cards/MUPDSA.jpg"
+      "cards": {
+        "3192x1512": "cards/MUPDSA-3192x1512.jpg",
+        "1920x1080": "cards/MUPDSA-1920x1080.jpg"
+      }
     },
     {
       "code": "7KDZYZ",
@@ -1970,7 +2519,10 @@
       "room": "Lotus Stage 1",
       "start": 1793856600000,
       "doNotRecord": false,
-      "card": "cards/7KDZYZ.jpg"
+      "cards": {
+        "3192x1512": "cards/7KDZYZ-3192x1512.jpg",
+        "1920x1080": "cards/7KDZYZ-1920x1080.jpg"
+      }
     },
     {
       "code": "PKTCGR",
@@ -1979,7 +2531,10 @@
       "room": "Community Led Stage",
       "start": 1793856600000,
       "doNotRecord": false,
-      "card": "cards/PKTCGR.jpg"
+      "cards": {
+        "2016x1176": "cards/PKTCGR-2016x1176.jpg",
+        "1920x1080": "cards/PKTCGR-1920x1080.jpg"
+      }
     },
     {
       "code": "93JNTN",
@@ -1988,7 +2543,10 @@
       "room": "CLS - Builders Room",
       "start": 1793856600000,
       "doNotRecord": false,
-      "card": "cards/93JNTN.jpg"
+      "cards": {
+        "2016x1176": "cards/93JNTN-2016x1176.jpg",
+        "1920x1080": "cards/93JNTN-1920x1080.jpg"
+      }
     },
     {
       "code": "NHQY3A",
@@ -1997,7 +2555,9 @@
       "room": "Music stage",
       "start": 1793856600000,
       "doNotRecord": false,
-      "card": "cards/NHQY3A.jpg"
+      "cards": {
+        "1920x1080": "cards/NHQY3A-1920x1080.jpg"
+      }
     },
     {
       "code": "EVV9KL",
@@ -2006,7 +2566,10 @@
       "room": "Lotus Stage 2",
       "start": 1793856600000,
       "doNotRecord": false,
-      "card": "cards/EVV9KL.jpg"
+      "cards": {
+        "4032x1512": "cards/EVV9KL-4032x1512.jpg",
+        "1920x1080": "cards/EVV9KL-1920x1080.jpg"
+      }
     },
     {
       "code": "JKH9SC",
@@ -2015,7 +2578,10 @@
       "room": "Lotus Stage 2",
       "start": 1793857200000,
       "doNotRecord": false,
-      "card": "cards/JKH9SC.jpg"
+      "cards": {
+        "4032x1512": "cards/JKH9SC-4032x1512.jpg",
+        "1920x1080": "cards/JKH9SC-1920x1080.jpg"
+      }
     },
     {
       "code": "JCXENF",
@@ -2024,7 +2590,10 @@
       "room": "Community Led Stage",
       "start": 1793857500000,
       "doNotRecord": false,
-      "card": "cards/JCXENF.jpg"
+      "cards": {
+        "2016x1176": "cards/JCXENF-2016x1176.jpg",
+        "1920x1080": "cards/JCXENF-1920x1080.jpg"
+      }
     },
     {
       "code": "BBLZSY",
@@ -2033,7 +2602,10 @@
       "room": "Lotus Stage 2",
       "start": 1793857800000,
       "doNotRecord": false,
-      "card": "cards/BBLZSY.jpg"
+      "cards": {
+        "4032x1512": "cards/BBLZSY-4032x1512.jpg",
+        "1920x1080": "cards/BBLZSY-1920x1080.jpg"
+      }
     },
     {
       "code": "CJTRGB",
@@ -2042,7 +2614,10 @@
       "room": "Lotus Stage 1",
       "start": 1793858400000,
       "doNotRecord": false,
-      "card": "cards/CJTRGB.jpg"
+      "cards": {
+        "3192x1512": "cards/CJTRGB-3192x1512.jpg",
+        "1920x1080": "cards/CJTRGB-1920x1080.jpg"
+      }
     },
     {
       "code": "LUVQKE",
@@ -2051,7 +2626,10 @@
       "room": "Lotus Stage 2",
       "start": 1793858400000,
       "doNotRecord": false,
-      "card": "cards/LUVQKE.jpg"
+      "cards": {
+        "4032x1512": "cards/LUVQKE-4032x1512.jpg",
+        "1920x1080": "cards/LUVQKE-1920x1080.jpg"
+      }
     },
     {
       "code": "3C3WRV",
@@ -2060,7 +2638,10 @@
       "room": "Community Led Stage",
       "start": 1793858400000,
       "doNotRecord": false,
-      "card": "cards/3C3WRV.jpg"
+      "cards": {
+        "2016x1176": "cards/3C3WRV-2016x1176.jpg",
+        "1920x1080": "cards/3C3WRV-1920x1080.jpg"
+      }
     },
     {
       "code": "ULTD3X",
@@ -2069,7 +2650,10 @@
       "room": "Lotus Stage 3",
       "start": 1793858400000,
       "doNotRecord": false,
-      "card": "cards/ULTD3X.jpg"
+      "cards": {
+        "3192x1512": "cards/ULTD3X-3192x1512.jpg",
+        "1920x1080": "cards/ULTD3X-1920x1080.jpg"
+      }
     },
     {
       "code": "VN33CT",
@@ -2078,7 +2662,9 @@
       "room": "Music stage",
       "start": 1793859000000,
       "doNotRecord": false,
-      "card": "cards/VN33CT.jpg"
+      "cards": {
+        "1920x1080": "cards/VN33CT-1920x1080.jpg"
+      }
     },
     {
       "code": "7CUG3V",
@@ -2087,7 +2673,10 @@
       "room": "Community Led Stage",
       "start": 1793859300000,
       "doNotRecord": false,
-      "card": "cards/7CUG3V.jpg"
+      "cards": {
+        "2016x1176": "cards/7CUG3V-2016x1176.jpg",
+        "1920x1080": "cards/7CUG3V-1920x1080.jpg"
+      }
     },
     {
       "code": "JCGPYB",
@@ -2096,7 +2685,9 @@
       "room": "Lightning Stage",
       "start": 1793859600000,
       "doNotRecord": false,
-      "card": "cards/JCGPYB.jpg"
+      "cards": {
+        "1920x1080": "cards/JCGPYB-1920x1080.jpg"
+      }
     },
     {
       "code": "TNSKHS",
@@ -2105,7 +2696,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793859900000,
       "doNotRecord": false,
-      "card": "cards/TNSKHS.jpg"
+      "cards": {
+        "1680x1008": "cards/TNSKHS-1680x1008.jpg",
+        "1920x1080": "cards/TNSKHS-1920x1080.jpg"
+      }
     },
     {
       "code": "BPRLWC",
@@ -2114,7 +2708,10 @@
       "room": "CLS - Builders Room",
       "start": 1793859900000,
       "doNotRecord": false,
-      "card": "cards/BPRLWC.jpg"
+      "cards": {
+        "2016x1176": "cards/BPRLWC-2016x1176.jpg",
+        "1920x1080": "cards/BPRLWC-1920x1080.jpg"
+      }
     },
     {
       "code": "QPP398",
@@ -2123,7 +2720,10 @@
       "room": "Community Led Stage",
       "start": 1793860200000,
       "doNotRecord": false,
-      "card": "cards/QPP398.jpg"
+      "cards": {
+        "2016x1176": "cards/QPP398-2016x1176.jpg",
+        "1920x1080": "cards/QPP398-1920x1080.jpg"
+      }
     },
     {
       "code": "UGVV8X",
@@ -2132,7 +2732,10 @@
       "room": "Lotus Stage 3",
       "start": 1793860200000,
       "doNotRecord": false,
-      "card": "cards/UGVV8X.jpg"
+      "cards": {
+        "3192x1512": "cards/UGVV8X-3192x1512.jpg",
+        "1920x1080": "cards/UGVV8X-1920x1080.jpg"
+      }
     },
     {
       "code": "SJC8GV",
@@ -2141,7 +2744,10 @@
       "room": "Lotus Stage 2",
       "start": 1793860200000,
       "doNotRecord": false,
-      "card": "cards/SJC8GV.jpg"
+      "cards": {
+        "4032x1512": "cards/SJC8GV-4032x1512.jpg",
+        "1920x1080": "cards/SJC8GV-1920x1080.jpg"
+      }
     },
     {
       "code": "SMQYXM",
@@ -2150,7 +2756,10 @@
       "room": "CLS - Builders Room",
       "start": 1793860200000,
       "doNotRecord": false,
-      "card": "cards/SMQYXM.jpg"
+      "cards": {
+        "2016x1176": "cards/SMQYXM-2016x1176.jpg",
+        "1920x1080": "cards/SMQYXM-1920x1080.jpg"
+      }
     },
     {
       "code": "Z8KKTZ",
@@ -2159,7 +2768,9 @@
       "room": "Workshop 2",
       "start": 1793860200000,
       "doNotRecord": true,
-      "card": "cards/Z8KKTZ.jpg"
+      "cards": {
+        "1920x1080": "cards/Z8KKTZ-1920x1080.jpg"
+      }
     },
     {
       "code": "PWF3JT",
@@ -2168,7 +2779,9 @@
       "room": "Workshop 1",
       "start": 1793860200000,
       "doNotRecord": false,
-      "card": "cards/PWF3JT.jpg"
+      "cards": {
+        "1920x1080": "cards/PWF3JT-1920x1080.jpg"
+      }
     },
     {
       "code": "KDLJWW",
@@ -2177,7 +2790,9 @@
       "room": "Lightning Stage",
       "start": 1793861400000,
       "doNotRecord": false,
-      "card": "cards/KDLJWW.jpg"
+      "cards": {
+        "1920x1080": "cards/KDLJWW-1920x1080.jpg"
+      }
     },
     {
       "code": "Z7YVKJ",
@@ -2186,7 +2801,10 @@
       "room": "Lotus Stage 2",
       "start": 1793862000000,
       "doNotRecord": false,
-      "card": "cards/Z7YVKJ.jpg"
+      "cards": {
+        "4032x1512": "cards/Z7YVKJ-4032x1512.jpg",
+        "1920x1080": "cards/Z7YVKJ-1920x1080.jpg"
+      }
     },
     {
       "code": "MVBTJC",
@@ -2195,7 +2813,10 @@
       "room": "Lotus Stage 3",
       "start": 1793862000000,
       "doNotRecord": false,
-      "card": "cards/MVBTJC.jpg"
+      "cards": {
+        "3192x1512": "cards/MVBTJC-3192x1512.jpg",
+        "1920x1080": "cards/MVBTJC-1920x1080.jpg"
+      }
     },
     {
       "code": "GUUBQR",
@@ -2204,7 +2825,10 @@
       "room": "Community Led Stage",
       "start": 1793862900000,
       "doNotRecord": false,
-      "card": "cards/GUUBQR.jpg"
+      "cards": {
+        "2016x1176": "cards/GUUBQR-2016x1176.jpg",
+        "1920x1080": "cards/GUUBQR-1920x1080.jpg"
+      }
     },
     {
       "code": "JWEMGN",
@@ -2213,7 +2837,10 @@
       "room": "Lotus Stage 3",
       "start": 1793863800000,
       "doNotRecord": false,
-      "card": "cards/JWEMGN.jpg"
+      "cards": {
+        "3192x1512": "cards/JWEMGN-3192x1512.jpg",
+        "1920x1080": "cards/JWEMGN-1920x1080.jpg"
+      }
     },
     {
       "code": "L7WTPV",
@@ -2222,7 +2849,10 @@
       "room": "Lotus Stage 1",
       "start": 1793863800000,
       "doNotRecord": false,
-      "card": "cards/L7WTPV.jpg"
+      "cards": {
+        "3192x1512": "cards/L7WTPV-3192x1512.jpg",
+        "1920x1080": "cards/L7WTPV-1920x1080.jpg"
+      }
     },
     {
       "code": "SFK8YG",
@@ -2231,7 +2861,10 @@
       "room": "Lotus Stage 1",
       "start": 1793865600000,
       "doNotRecord": false,
-      "card": "cards/SFK8YG.jpg"
+      "cards": {
+        "3192x1512": "cards/SFK8YG-3192x1512.jpg",
+        "1920x1080": "cards/SFK8YG-1920x1080.jpg"
+      }
     },
     {
       "code": "MSPKQP",
@@ -2240,7 +2873,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793865600000,
       "doNotRecord": false,
-      "card": "cards/MSPKQP.jpg"
+      "cards": {
+        "1680x1008": "cards/MSPKQP-1680x1008.jpg",
+        "1920x1080": "cards/MSPKQP-1920x1080.jpg"
+      }
     },
     {
       "code": "KZLR87",
@@ -2249,7 +2885,10 @@
       "room": "Community Led Stage",
       "start": 1793866500000,
       "doNotRecord": false,
-      "card": "cards/KZLR87.jpg"
+      "cards": {
+        "2016x1176": "cards/KZLR87-2016x1176.jpg",
+        "1920x1080": "cards/KZLR87-1920x1080.jpg"
+      }
     },
     {
       "code": "ZNGJGK",
@@ -2258,7 +2897,10 @@
       "room": "CLS - Builders Room",
       "start": 1793866500000,
       "doNotRecord": false,
-      "card": "cards/ZNGJGK.jpg"
+      "cards": {
+        "2016x1176": "cards/ZNGJGK-2016x1176.jpg",
+        "1920x1080": "cards/ZNGJGK-1920x1080.jpg"
+      }
     },
     {
       "code": "XQXYLL",
@@ -2267,7 +2909,9 @@
       "room": "Lightning Stage",
       "start": 1793866800000,
       "doNotRecord": false,
-      "card": "cards/XQXYLL.jpg"
+      "cards": {
+        "1920x1080": "cards/XQXYLL-1920x1080.jpg"
+      }
     },
     {
       "code": "LAVNHC",
@@ -2276,7 +2920,9 @@
       "room": "Lightning Stage",
       "start": 1793867400000,
       "doNotRecord": false,
-      "card": "cards/LAVNHC.jpg"
+      "cards": {
+        "1920x1080": "cards/LAVNHC-1920x1080.jpg"
+      }
     },
     {
       "code": "J9JVWK",
@@ -2285,7 +2931,9 @@
       "room": "Workshop 1",
       "start": 1793867400000,
       "doNotRecord": false,
-      "card": "cards/J9JVWK.jpg"
+      "cards": {
+        "1920x1080": "cards/J9JVWK-1920x1080.jpg"
+      }
     },
     {
       "code": "8YRHCY",
@@ -2294,7 +2942,10 @@
       "room": "Lotus Stage 2",
       "start": 1793867400000,
       "doNotRecord": false,
-      "card": "cards/8YRHCY.jpg"
+      "cards": {
+        "4032x1512": "cards/8YRHCY-4032x1512.jpg",
+        "1920x1080": "cards/8YRHCY-1920x1080.jpg"
+      }
     },
     {
       "code": "DVN8EE",
@@ -2303,7 +2954,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793867400000,
       "doNotRecord": false,
-      "card": "cards/DVN8EE.jpg"
+      "cards": {
+        "1680x1008": "cards/DVN8EE-1680x1008.jpg",
+        "1920x1080": "cards/DVN8EE-1920x1080.jpg"
+      }
     },
     {
       "code": "UM7HQM",
@@ -2312,7 +2966,9 @@
       "room": "Workshop 2",
       "start": 1793867400000,
       "doNotRecord": false,
-      "card": "cards/UM7HQM.jpg"
+      "cards": {
+        "1920x1080": "cards/UM7HQM-1920x1080.jpg"
+      }
     },
     {
       "code": "BU8P8B",
@@ -2321,7 +2977,10 @@
       "room": "Lotus Stage 1",
       "start": 1793867400000,
       "doNotRecord": false,
-      "card": "cards/BU8P8B.jpg"
+      "cards": {
+        "3192x1512": "cards/BU8P8B-3192x1512.jpg",
+        "1920x1080": "cards/BU8P8B-1920x1080.jpg"
+      }
     },
     {
       "code": "ZWHMKX",
@@ -2330,7 +2989,10 @@
       "room": "Community Led Stage",
       "start": 1793867400000,
       "doNotRecord": false,
-      "card": "cards/ZWHMKX.jpg"
+      "cards": {
+        "2016x1176": "cards/ZWHMKX-2016x1176.jpg",
+        "1920x1080": "cards/ZWHMKX-1920x1080.jpg"
+      }
     },
     {
       "code": "NBRCQS",
@@ -2339,7 +3001,9 @@
       "room": "Lightning Stage",
       "start": 1793868000000,
       "doNotRecord": false,
-      "card": "cards/NBRCQS.jpg"
+      "cards": {
+        "1920x1080": "cards/NBRCQS-1920x1080.jpg"
+      }
     },
     {
       "code": "NRN3LK",
@@ -2348,7 +3012,10 @@
       "room": "Community Led Stage",
       "start": 1793868300000,
       "doNotRecord": false,
-      "card": "cards/NRN3LK.jpg"
+      "cards": {
+        "2016x1176": "cards/NRN3LK-2016x1176.jpg",
+        "1920x1080": "cards/NRN3LK-1920x1080.jpg"
+      }
     },
     {
       "code": "HGQQNC",
@@ -2357,7 +3024,9 @@
       "room": "Lightning Stage",
       "start": 1793868600000,
       "doNotRecord": false,
-      "card": "cards/HGQQNC.jpg"
+      "cards": {
+        "1920x1080": "cards/HGQQNC-1920x1080.jpg"
+      }
     },
     {
       "code": "XWHQKC",
@@ -2366,7 +3035,10 @@
       "room": "Lotus Stage 1",
       "start": 1793869200000,
       "doNotRecord": false,
-      "card": "cards/XWHQKC.jpg"
+      "cards": {
+        "3192x1512": "cards/XWHQKC-3192x1512.jpg",
+        "1920x1080": "cards/XWHQKC-1920x1080.jpg"
+      }
     },
     {
       "code": "9HYHA9",
@@ -2375,7 +3047,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793869200000,
       "doNotRecord": false,
-      "card": "cards/9HYHA9.jpg"
+      "cards": {
+        "1680x1008": "cards/9HYHA9-1680x1008.jpg",
+        "1920x1080": "cards/9HYHA9-1920x1080.jpg"
+      }
     },
     {
       "code": "XAD8FT",
@@ -2384,7 +3059,10 @@
       "room": "Lotus Stage 2",
       "start": 1793869200000,
       "doNotRecord": false,
-      "card": "cards/XAD8FT.jpg"
+      "cards": {
+        "4032x1512": "cards/XAD8FT-4032x1512.jpg",
+        "1920x1080": "cards/XAD8FT-1920x1080.jpg"
+      }
     },
     {
       "code": "ETGLCN",
@@ -2393,7 +3071,10 @@
       "room": "Community Led Stage",
       "start": 1793869200000,
       "doNotRecord": false,
-      "card": "cards/ETGLCN.jpg"
+      "cards": {
+        "2016x1176": "cards/ETGLCN-2016x1176.jpg",
+        "1920x1080": "cards/ETGLCN-1920x1080.jpg"
+      }
     },
     {
       "code": "WJDESJ",
@@ -2402,7 +3083,9 @@
       "room": "Lightning Stage",
       "start": 1793869200000,
       "doNotRecord": false,
-      "card": "cards/WJDESJ.jpg"
+      "cards": {
+        "1920x1080": "cards/WJDESJ-1920x1080.jpg"
+      }
     },
     {
       "code": "PA9EBV",
@@ -2411,7 +3094,10 @@
       "room": "Lotus Stage 3",
       "start": 1793869200000,
       "doNotRecord": false,
-      "card": "cards/PA9EBV.jpg"
+      "cards": {
+        "3192x1512": "cards/PA9EBV-3192x1512.jpg",
+        "1920x1080": "cards/PA9EBV-1920x1080.jpg"
+      }
     },
     {
       "code": "GJTGEJ",
@@ -2420,7 +3106,10 @@
       "room": "Lotus Stage 1",
       "start": 1793869800000,
       "doNotRecord": false,
-      "card": "cards/GJTGEJ.jpg"
+      "cards": {
+        "3192x1512": "cards/GJTGEJ-3192x1512.jpg",
+        "1920x1080": "cards/GJTGEJ-1920x1080.jpg"
+      }
     },
     {
       "code": "WX8YC3",
@@ -2429,7 +3118,9 @@
       "room": "Lightning Stage",
       "start": 1793869800000,
       "doNotRecord": false,
-      "card": "cards/WX8YC3.jpg"
+      "cards": {
+        "1920x1080": "cards/WX8YC3-1920x1080.jpg"
+      }
     },
     {
       "code": "ZNFEDX",
@@ -2438,7 +3129,10 @@
       "room": "CLS - Builders Room",
       "start": 1793869800000,
       "doNotRecord": false,
-      "card": "cards/ZNFEDX.jpg"
+      "cards": {
+        "2016x1176": "cards/ZNFEDX-2016x1176.jpg",
+        "1920x1080": "cards/ZNFEDX-1920x1080.jpg"
+      }
     },
     {
       "code": "GJKMVD",
@@ -2447,7 +3141,10 @@
       "room": "CLS - Builders Room",
       "start": 1793870100000,
       "doNotRecord": false,
-      "card": "cards/GJKMVD.jpg"
+      "cards": {
+        "2016x1176": "cards/GJKMVD-2016x1176.jpg",
+        "1920x1080": "cards/GJKMVD-1920x1080.jpg"
+      }
     },
     {
       "code": "AU7YLW",
@@ -2456,7 +3153,10 @@
       "room": "Community Led Stage",
       "start": 1793870100000,
       "doNotRecord": false,
-      "card": "cards/AU7YLW.jpg"
+      "cards": {
+        "2016x1176": "cards/AU7YLW-2016x1176.jpg",
+        "1920x1080": "cards/AU7YLW-1920x1080.jpg"
+      }
     },
     {
       "code": "7QT9HK",
@@ -2465,7 +3165,9 @@
       "room": "Lightning Stage",
       "start": 1793870400000,
       "doNotRecord": false,
-      "card": "cards/7QT9HK.jpg"
+      "cards": {
+        "1920x1080": "cards/7QT9HK-1920x1080.jpg"
+      }
     },
     {
       "code": "SBGB8A",
@@ -2474,7 +3176,10 @@
       "room": "Lotus Stage 1",
       "start": 1793870400000,
       "doNotRecord": false,
-      "card": "cards/SBGB8A.jpg"
+      "cards": {
+        "3192x1512": "cards/SBGB8A-3192x1512.jpg",
+        "1920x1080": "cards/SBGB8A-1920x1080.jpg"
+      }
     },
     {
       "code": "GYZ9CC",
@@ -2483,7 +3188,10 @@
       "room": "Community Led Stage",
       "start": 1793871000000,
       "doNotRecord": false,
-      "card": "cards/GYZ9CC.jpg"
+      "cards": {
+        "2016x1176": "cards/GYZ9CC-2016x1176.jpg",
+        "1920x1080": "cards/GYZ9CC-1920x1080.jpg"
+      }
     },
     {
       "code": "NFAMP9",
@@ -2492,7 +3200,9 @@
       "room": "Workshop 1",
       "start": 1793871000000,
       "doNotRecord": false,
-      "card": "cards/NFAMP9.jpg"
+      "cards": {
+        "1920x1080": "cards/NFAMP9-1920x1080.jpg"
+      }
     },
     {
       "code": "EDNU8K",
@@ -2501,7 +3211,10 @@
       "room": "Lotus Stage 3",
       "start": 1793871000000,
       "doNotRecord": false,
-      "card": "cards/EDNU8K.jpg"
+      "cards": {
+        "3192x1512": "cards/EDNU8K-3192x1512.jpg",
+        "1920x1080": "cards/EDNU8K-1920x1080.jpg"
+      }
     },
     {
       "code": "SCRFFM",
@@ -2510,7 +3223,10 @@
       "room": "Lotus Stage 1",
       "start": 1793871000000,
       "doNotRecord": false,
-      "card": "cards/SCRFFM.jpg"
+      "cards": {
+        "3192x1512": "cards/SCRFFM-3192x1512.jpg",
+        "1920x1080": "cards/SCRFFM-1920x1080.jpg"
+      }
     },
     {
       "code": "MBVZA3",
@@ -2519,7 +3235,9 @@
       "room": "Workshop 2",
       "start": 1793871000000,
       "doNotRecord": false,
-      "card": "cards/MBVZA3.jpg"
+      "cards": {
+        "1920x1080": "cards/MBVZA3-1920x1080.jpg"
+      }
     },
     {
       "code": "EDURM9",
@@ -2528,7 +3246,10 @@
       "room": "Lotus Stage 2",
       "start": 1793871000000,
       "doNotRecord": false,
-      "card": "cards/EDURM9.jpg"
+      "cards": {
+        "4032x1512": "cards/EDURM9-4032x1512.jpg",
+        "1920x1080": "cards/EDURM9-1920x1080.jpg"
+      }
     },
     {
       "code": "U3KQB3",
@@ -2537,7 +3258,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793871000000,
       "doNotRecord": false,
-      "card": "cards/U3KQB3.jpg"
+      "cards": {
+        "1680x1008": "cards/U3KQB3-1680x1008.jpg",
+        "1920x1080": "cards/U3KQB3-1920x1080.jpg"
+      }
     },
     {
       "code": "SKXHZH",
@@ -2546,7 +3270,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793871600000,
       "doNotRecord": false,
-      "card": "cards/SKXHZH.jpg"
+      "cards": {
+        "1680x1008": "cards/SKXHZH-1680x1008.jpg",
+        "1920x1080": "cards/SKXHZH-1920x1080.jpg"
+      }
     },
     {
       "code": "BJSPR9",
@@ -2555,7 +3282,9 @@
       "room": "Lightning Stage",
       "start": 1793871600000,
       "doNotRecord": false,
-      "card": "cards/BJSPR9.jpg"
+      "cards": {
+        "1920x1080": "cards/BJSPR9-1920x1080.jpg"
+      }
     },
     {
       "code": "CUHXF8",
@@ -2564,7 +3293,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793872200000,
       "doNotRecord": false,
-      "card": "cards/CUHXF8.jpg"
+      "cards": {
+        "1680x1008": "cards/CUHXF8-1680x1008.jpg",
+        "1920x1080": "cards/CUHXF8-1920x1080.jpg"
+      }
     },
     {
       "code": "PYCGBJ",
@@ -2573,7 +3305,10 @@
       "room": "Lotus Stage 2",
       "start": 1793872800000,
       "doNotRecord": false,
-      "card": "cards/PYCGBJ.jpg"
+      "cards": {
+        "4032x1512": "cards/PYCGBJ-4032x1512.jpg",
+        "1920x1080": "cards/PYCGBJ-1920x1080.jpg"
+      }
     },
     {
       "code": "SPVJV8",
@@ -2582,7 +3317,10 @@
       "room": "Lotus Stage 3",
       "start": 1793872800000,
       "doNotRecord": false,
-      "card": "cards/SPVJV8.jpg"
+      "cards": {
+        "3192x1512": "cards/SPVJV8-3192x1512.jpg",
+        "1920x1080": "cards/SPVJV8-1920x1080.jpg"
+      }
     },
     {
       "code": "AFWHL8",
@@ -2591,7 +3329,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793872800000,
       "doNotRecord": false,
-      "card": "cards/AFWHL8.jpg"
+      "cards": {
+        "1680x1008": "cards/AFWHL8-1680x1008.jpg",
+        "1920x1080": "cards/AFWHL8-1920x1080.jpg"
+      }
     },
     {
       "code": "7LKURX",
@@ -2600,7 +3341,10 @@
       "room": "Lotus Stage 1",
       "start": 1793872800000,
       "doNotRecord": false,
-      "card": "cards/7LKURX.jpg"
+      "cards": {
+        "3192x1512": "cards/7LKURX-3192x1512.jpg",
+        "1920x1080": "cards/7LKURX-1920x1080.jpg"
+      }
     },
     {
       "code": "KQJAWK",
@@ -2609,7 +3353,9 @@
       "room": "Lightning Stage",
       "start": 1793873400000,
       "doNotRecord": false,
-      "card": "cards/KQJAWK.jpg"
+      "cards": {
+        "1920x1080": "cards/KQJAWK-1920x1080.jpg"
+      }
     },
     {
       "code": "VUGGD7",
@@ -2618,7 +3364,10 @@
       "room": "Community Led Stage",
       "start": 1793873700000,
       "doNotRecord": false,
-      "card": "cards/VUGGD7.jpg"
+      "cards": {
+        "2016x1176": "cards/VUGGD7-2016x1176.jpg",
+        "1920x1080": "cards/VUGGD7-1920x1080.jpg"
+      }
     },
     {
       "code": "XYCJTF",
@@ -2627,7 +3376,10 @@
       "room": "CLS - Builders Room",
       "start": 1793873700000,
       "doNotRecord": false,
-      "card": "cards/XYCJTF.jpg"
+      "cards": {
+        "2016x1176": "cards/XYCJTF-2016x1176.jpg",
+        "1920x1080": "cards/XYCJTF-1920x1080.jpg"
+      }
     },
     {
       "code": "SKKVHK",
@@ -2636,7 +3388,10 @@
       "room": "Lotus Stage 1",
       "start": 1793874600000,
       "doNotRecord": false,
-      "card": "cards/SKKVHK.jpg"
+      "cards": {
+        "3192x1512": "cards/SKKVHK-3192x1512.jpg",
+        "1920x1080": "cards/SKKVHK-1920x1080.jpg"
+      }
     },
     {
       "code": "9VGQSC",
@@ -2645,7 +3400,10 @@
       "room": "CLS - Builders Room",
       "start": 1793874600000,
       "doNotRecord": false,
-      "card": "cards/9VGQSC.jpg"
+      "cards": {
+        "2016x1176": "cards/9VGQSC-2016x1176.jpg",
+        "1920x1080": "cards/9VGQSC-1920x1080.jpg"
+      }
     },
     {
       "code": "EAGGQB",
@@ -2654,7 +3412,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793874600000,
       "doNotRecord": false,
-      "card": "cards/EAGGQB.jpg"
+      "cards": {
+        "1680x1008": "cards/EAGGQB-1680x1008.jpg",
+        "1920x1080": "cards/EAGGQB-1920x1080.jpg"
+      }
     },
     {
       "code": "QACB3T",
@@ -2663,7 +3424,10 @@
       "room": "Community Led Stage",
       "start": 1793874600000,
       "doNotRecord": false,
-      "card": "cards/QACB3T.jpg"
+      "cards": {
+        "2016x1176": "cards/QACB3T-2016x1176.jpg",
+        "1920x1080": "cards/QACB3T-1920x1080.jpg"
+      }
     },
     {
       "code": "SAWU7Y",
@@ -2672,7 +3436,9 @@
       "room": "Workshop 2",
       "start": 1793874600000,
       "doNotRecord": false,
-      "card": "cards/SAWU7Y.jpg"
+      "cards": {
+        "1920x1080": "cards/SAWU7Y-1920x1080.jpg"
+      }
     },
     {
       "code": "3PC37L",
@@ -2681,7 +3447,10 @@
       "room": "Lotus Stage 2",
       "start": 1793874600000,
       "doNotRecord": false,
-      "card": "cards/3PC37L.jpg"
+      "cards": {
+        "4032x1512": "cards/3PC37L-4032x1512.jpg",
+        "1920x1080": "cards/3PC37L-1920x1080.jpg"
+      }
     },
     {
       "code": "WPKHPZ",
@@ -2690,7 +3459,9 @@
       "room": "Workshop 1",
       "start": 1793874600000,
       "doNotRecord": false,
-      "card": "cards/WPKHPZ.jpg"
+      "cards": {
+        "1920x1080": "cards/WPKHPZ-1920x1080.jpg"
+      }
     },
     {
       "code": "V8FWRD",
@@ -2699,7 +3470,9 @@
       "room": "Music stage",
       "start": 1793874600000,
       "doNotRecord": false,
-      "card": "cards/V8FWRD.jpg"
+      "cards": {
+        "1920x1080": "cards/V8FWRD-1920x1080.jpg"
+      }
     },
     {
       "code": "NBDGZU",
@@ -2708,7 +3481,10 @@
       "room": "Lotus Stage 3",
       "start": 1793874600000,
       "doNotRecord": false,
-      "card": "cards/NBDGZU.jpg"
+      "cards": {
+        "3192x1512": "cards/NBDGZU-3192x1512.jpg",
+        "1920x1080": "cards/NBDGZU-1920x1080.jpg"
+      }
     },
     {
       "code": "RBDERC",
@@ -2717,7 +3493,10 @@
       "room": "Community Led Stage",
       "start": 1793874900000,
       "doNotRecord": false,
-      "card": "cards/RBDERC.jpg"
+      "cards": {
+        "2016x1176": "cards/RBDERC-2016x1176.jpg",
+        "1920x1080": "cards/RBDERC-1920x1080.jpg"
+      }
     },
     {
       "code": "XDANFZ",
@@ -2726,7 +3505,9 @@
       "room": "Lightning Stage",
       "start": 1793875200000,
       "doNotRecord": false,
-      "card": "cards/XDANFZ.jpg"
+      "cards": {
+        "1920x1080": "cards/XDANFZ-1920x1080.jpg"
+      }
     },
     {
       "code": "XAH9KH",
@@ -2735,7 +3516,10 @@
       "room": "Community Led Stage",
       "start": 1793875200000,
       "doNotRecord": false,
-      "card": "cards/XAH9KH.jpg"
+      "cards": {
+        "2016x1176": "cards/XAH9KH-2016x1176.jpg",
+        "1920x1080": "cards/XAH9KH-1920x1080.jpg"
+      }
     },
     {
       "code": "DUU3MK",
@@ -2744,7 +3528,10 @@
       "room": "CLS - Builders Room",
       "start": 1793875500000,
       "doNotRecord": false,
-      "card": "cards/DUU3MK.jpg"
+      "cards": {
+        "2016x1176": "cards/DUU3MK-2016x1176.jpg",
+        "1920x1080": "cards/DUU3MK-1920x1080.jpg"
+      }
     },
     {
       "code": "HRSPVY",
@@ -2753,7 +3540,10 @@
       "room": "Community Led Stage",
       "start": 1793875500000,
       "doNotRecord": false,
-      "card": "cards/HRSPVY.jpg"
+      "cards": {
+        "2016x1176": "cards/HRSPVY-2016x1176.jpg",
+        "1920x1080": "cards/HRSPVY-1920x1080.jpg"
+      }
     },
     {
       "code": "SDZ8VN",
@@ -2762,7 +3552,10 @@
       "room": "Community Led Stage",
       "start": 1793875800000,
       "doNotRecord": false,
-      "card": "cards/SDZ8VN.jpg"
+      "cards": {
+        "2016x1176": "cards/SDZ8VN-2016x1176.jpg",
+        "1920x1080": "cards/SDZ8VN-1920x1080.jpg"
+      }
     },
     {
       "code": "AQHNWK",
@@ -2771,7 +3564,10 @@
       "room": "Community Led Stage",
       "start": 1793876100000,
       "doNotRecord": false,
-      "card": "cards/AQHNWK.jpg"
+      "cards": {
+        "2016x1176": "cards/AQHNWK-2016x1176.jpg",
+        "1920x1080": "cards/AQHNWK-1920x1080.jpg"
+      }
     },
     {
       "code": "MW8QFF",
@@ -2780,7 +3576,10 @@
       "room": "Lotus Stage 1",
       "start": 1793876400000,
       "doNotRecord": false,
-      "card": "cards/MW8QFF.jpg"
+      "cards": {
+        "3192x1512": "cards/MW8QFF-3192x1512.jpg",
+        "1920x1080": "cards/MW8QFF-1920x1080.jpg"
+      }
     },
     {
       "code": "GMTHTA",
@@ -2789,7 +3588,9 @@
       "room": "Music stage",
       "start": 1793876400000,
       "doNotRecord": false,
-      "card": "cards/GMTHTA.jpg"
+      "cards": {
+        "1920x1080": "cards/GMTHTA-1920x1080.jpg"
+      }
     },
     {
       "code": "PRBXKM",
@@ -2798,7 +3599,10 @@
       "room": "Community Led Stage",
       "start": 1793876400000,
       "doNotRecord": false,
-      "card": "cards/PRBXKM.jpg"
+      "cards": {
+        "2016x1176": "cards/PRBXKM-2016x1176.jpg",
+        "1920x1080": "cards/PRBXKM-1920x1080.jpg"
+      }
     },
     {
       "code": "BBGJPJ",
@@ -2807,7 +3611,10 @@
       "room": "Lotus Stage 3",
       "start": 1793876400000,
       "doNotRecord": false,
-      "card": "cards/BBGJPJ.jpg"
+      "cards": {
+        "3192x1512": "cards/BBGJPJ-3192x1512.jpg",
+        "1920x1080": "cards/BBGJPJ-1920x1080.jpg"
+      }
     },
     {
       "code": "GPUWKZ",
@@ -2816,7 +3623,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793876400000,
       "doNotRecord": false,
-      "card": "cards/GPUWKZ.jpg"
+      "cards": {
+        "1680x1008": "cards/GPUWKZ-1680x1008.jpg",
+        "1920x1080": "cards/GPUWKZ-1920x1080.jpg"
+      }
     },
     {
       "code": "BXK7HC",
@@ -2825,7 +3635,10 @@
       "room": "Community Led Stage",
       "start": 1793876700000,
       "doNotRecord": false,
-      "card": "cards/BXK7HC.jpg"
+      "cards": {
+        "2016x1176": "cards/BXK7HC-2016x1176.jpg",
+        "1920x1080": "cards/BXK7HC-1920x1080.jpg"
+      }
     },
     {
       "code": "FL8FB8",
@@ -2834,7 +3647,10 @@
       "room": "Community Led Stage",
       "start": 1793877000000,
       "doNotRecord": false,
-      "card": "cards/FL8FB8.jpg"
+      "cards": {
+        "2016x1176": "cards/FL8FB8-2016x1176.jpg",
+        "1920x1080": "cards/FL8FB8-1920x1080.jpg"
+      }
     },
     {
       "code": "VGDDHM",
@@ -2843,7 +3659,10 @@
       "room": "Community Led Stage",
       "start": 1793877300000,
       "doNotRecord": false,
-      "card": "cards/VGDDHM.jpg"
+      "cards": {
+        "2016x1176": "cards/VGDDHM-2016x1176.jpg",
+        "1920x1080": "cards/VGDDHM-1920x1080.jpg"
+      }
     },
     {
       "code": "KSPBWF",
@@ -2852,7 +3671,10 @@
       "room": "Community Led Stage",
       "start": 1793877600000,
       "doNotRecord": false,
-      "card": "cards/KSPBWF.jpg"
+      "cards": {
+        "2016x1176": "cards/KSPBWF-2016x1176.jpg",
+        "1920x1080": "cards/KSPBWF-1920x1080.jpg"
+      }
     },
     {
       "code": "RKVULN",
@@ -2861,7 +3683,10 @@
       "room": "Community Led Stage",
       "start": 1793877900000,
       "doNotRecord": false,
-      "card": "cards/RKVULN.jpg"
+      "cards": {
+        "2016x1176": "cards/RKVULN-2016x1176.jpg",
+        "1920x1080": "cards/RKVULN-1920x1080.jpg"
+      }
     },
     {
       "code": "9S3PQS",
@@ -2870,7 +3695,10 @@
       "room": "Lotus Stage 3",
       "start": 1793878200000,
       "doNotRecord": false,
-      "card": "cards/9S3PQS.jpg"
+      "cards": {
+        "3192x1512": "cards/9S3PQS-3192x1512.jpg",
+        "1920x1080": "cards/9S3PQS-1920x1080.jpg"
+      }
     },
     {
       "code": "LRW7SZ",
@@ -2879,7 +3707,10 @@
       "room": "Lotus Stage 1",
       "start": 1793878200000,
       "doNotRecord": false,
-      "card": "cards/LRW7SZ.jpg"
+      "cards": {
+        "3192x1512": "cards/LRW7SZ-3192x1512.jpg",
+        "1920x1080": "cards/LRW7SZ-1920x1080.jpg"
+      }
     },
     {
       "code": "LAFSE7",
@@ -2888,7 +3719,10 @@
       "room": "Community Led Stage",
       "start": 1793878200000,
       "doNotRecord": false,
-      "card": "cards/LAFSE7.jpg"
+      "cards": {
+        "2016x1176": "cards/LAFSE7-2016x1176.jpg",
+        "1920x1080": "cards/LAFSE7-1920x1080.jpg"
+      }
     },
     {
       "code": "MGD3UC",
@@ -2897,7 +3731,9 @@
       "room": "Music stage",
       "start": 1793880000000,
       "doNotRecord": false,
-      "card": "cards/MGD3UC.jpg"
+      "cards": {
+        "1920x1080": "cards/MGD3UC-1920x1080.jpg"
+      }
     },
     {
       "code": "GUYLQ7",
@@ -2906,7 +3742,10 @@
       "room": "Community Led Stage",
       "start": 1793880000000,
       "doNotRecord": false,
-      "card": "cards/GUYLQ7.jpg"
+      "cards": {
+        "2016x1176": "cards/GUYLQ7-2016x1176.jpg",
+        "1920x1080": "cards/GUYLQ7-1920x1080.jpg"
+      }
     },
     {
       "code": "PJ9EXB",
@@ -2915,7 +3754,9 @@
       "room": "Music stage",
       "start": 1793937600000,
       "doNotRecord": false,
-      "card": "cards/PJ9EXB.jpg"
+      "cards": {
+        "1920x1080": "cards/PJ9EXB-1920x1080.jpg"
+      }
     },
     {
       "code": "ARYWNF",
@@ -2924,7 +3765,9 @@
       "room": "Lightning Stage",
       "start": 1793939400000,
       "doNotRecord": false,
-      "card": "cards/ARYWNF.jpg"
+      "cards": {
+        "1920x1080": "cards/ARYWNF-1920x1080.jpg"
+      }
     },
     {
       "code": "9MFZ3R",
@@ -2933,7 +3776,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793939400000,
       "doNotRecord": false,
-      "card": "cards/9MFZ3R.jpg"
+      "cards": {
+        "1680x1008": "cards/9MFZ3R-1680x1008.jpg",
+        "1920x1080": "cards/9MFZ3R-1920x1080.jpg"
+      }
     },
     {
       "code": "VZC3EG",
@@ -2942,7 +3788,10 @@
       "room": "Lotus Stage 1",
       "start": 1793939400000,
       "doNotRecord": false,
-      "card": "cards/VZC3EG.jpg"
+      "cards": {
+        "3192x1512": "cards/VZC3EG-3192x1512.jpg",
+        "1920x1080": "cards/VZC3EG-1920x1080.jpg"
+      }
     },
     {
       "code": "AHRYJJ",
@@ -2951,7 +3800,10 @@
       "room": "Lotus Stage 2",
       "start": 1793939400000,
       "doNotRecord": false,
-      "card": "cards/AHRYJJ.jpg"
+      "cards": {
+        "4032x1512": "cards/AHRYJJ-4032x1512.jpg",
+        "1920x1080": "cards/AHRYJJ-1920x1080.jpg"
+      }
     },
     {
       "code": "MEEHFX",
@@ -2960,7 +3812,9 @@
       "room": "Workshop 2",
       "start": 1793939400000,
       "doNotRecord": false,
-      "card": "cards/MEEHFX.jpg"
+      "cards": {
+        "1920x1080": "cards/MEEHFX-1920x1080.jpg"
+      }
     },
     {
       "code": "E9Y39K",
@@ -2969,7 +3823,10 @@
       "room": "Community Led Stage",
       "start": 1793939400000,
       "doNotRecord": false,
-      "card": "cards/E9Y39K.jpg"
+      "cards": {
+        "2016x1176": "cards/E9Y39K-2016x1176.jpg",
+        "1920x1080": "cards/E9Y39K-1920x1080.jpg"
+      }
     },
     {
       "code": "FWNHDK",
@@ -2978,7 +3835,9 @@
       "room": "Workshop 1",
       "start": 1793939400000,
       "doNotRecord": true,
-      "card": "cards/FWNHDK.jpg"
+      "cards": {
+        "1920x1080": "cards/FWNHDK-1920x1080.jpg"
+      }
     },
     {
       "code": "BTFDF3",
@@ -2987,7 +3846,10 @@
       "room": "Lotus Stage 3",
       "start": 1793939400000,
       "doNotRecord": false,
-      "card": "cards/BTFDF3.jpg"
+      "cards": {
+        "3192x1512": "cards/BTFDF3-3192x1512.jpg",
+        "1920x1080": "cards/BTFDF3-1920x1080.jpg"
+      }
     },
     {
       "code": "JNH7AU",
@@ -2996,7 +3858,9 @@
       "room": "Lightning Stage",
       "start": 1793940000000,
       "doNotRecord": false,
-      "card": "cards/JNH7AU.jpg"
+      "cards": {
+        "1920x1080": "cards/JNH7AU-1920x1080.jpg"
+      }
     },
     {
       "code": "HZUQ3S",
@@ -3005,7 +3869,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793940000000,
       "doNotRecord": false,
-      "card": "cards/HZUQ3S.jpg"
+      "cards": {
+        "1680x1008": "cards/HZUQ3S-1680x1008.jpg",
+        "1920x1080": "cards/HZUQ3S-1920x1080.jpg"
+      }
     },
     {
       "code": "XVXTL3",
@@ -3014,7 +3881,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793940600000,
       "doNotRecord": false,
-      "card": "cards/XVXTL3.jpg"
+      "cards": {
+        "1680x1008": "cards/XVXTL3-1680x1008.jpg",
+        "1920x1080": "cards/XVXTL3-1920x1080.jpg"
+      }
     },
     {
       "code": "YGCHZV",
@@ -3023,7 +3893,9 @@
       "room": "Lightning Stage",
       "start": 1793940600000,
       "doNotRecord": true,
-      "card": "cards/YGCHZV.jpg"
+      "cards": {
+        "1920x1080": "cards/YGCHZV-1920x1080.jpg"
+      }
     },
     {
       "code": "YY3KTY",
@@ -3032,7 +3904,10 @@
       "room": "Lotus Stage 3",
       "start": 1793941200000,
       "doNotRecord": false,
-      "card": "cards/YY3KTY.jpg"
+      "cards": {
+        "3192x1512": "cards/YY3KTY-3192x1512.jpg",
+        "1920x1080": "cards/YY3KTY-1920x1080.jpg"
+      }
     },
     {
       "code": "S7MQJL",
@@ -3041,7 +3916,9 @@
       "room": "Lightning Stage",
       "start": 1793941200000,
       "doNotRecord": false,
-      "card": "cards/S7MQJL.jpg"
+      "cards": {
+        "1920x1080": "cards/S7MQJL-1920x1080.jpg"
+      }
     },
     {
       "code": "VW97LB",
@@ -3050,7 +3927,10 @@
       "room": "Lotus Stage 1",
       "start": 1793941200000,
       "doNotRecord": false,
-      "card": "cards/VW97LB.jpg"
+      "cards": {
+        "3192x1512": "cards/VW97LB-3192x1512.jpg",
+        "1920x1080": "cards/VW97LB-1920x1080.jpg"
+      }
     },
     {
       "code": "D7ZPJS",
@@ -3059,7 +3939,10 @@
       "room": "Lotus Stage 2",
       "start": 1793941200000,
       "doNotRecord": false,
-      "card": "cards/D7ZPJS.jpg"
+      "cards": {
+        "4032x1512": "cards/D7ZPJS-4032x1512.jpg",
+        "1920x1080": "cards/D7ZPJS-1920x1080.jpg"
+      }
     },
     {
       "code": "XLDW7D",
@@ -3068,7 +3951,9 @@
       "room": "Lightning Stage",
       "start": 1793941800000,
       "doNotRecord": false,
-      "card": "cards/XLDW7D.jpg"
+      "cards": {
+        "1920x1080": "cards/XLDW7D-1920x1080.jpg"
+      }
     },
     {
       "code": "MBVJBQ",
@@ -3077,7 +3962,9 @@
       "room": "Lightning Stage",
       "start": 1793942400000,
       "doNotRecord": false,
-      "card": "cards/MBVJBQ.jpg"
+      "cards": {
+        "1920x1080": "cards/MBVJBQ-1920x1080.jpg"
+      }
     },
     {
       "code": "R8NEAK",
@@ -3086,7 +3973,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793942400000,
       "doNotRecord": false,
-      "card": "cards/R8NEAK.jpg"
+      "cards": {
+        "1680x1008": "cards/R8NEAK-1680x1008.jpg",
+        "1920x1080": "cards/R8NEAK-1920x1080.jpg"
+      }
     },
     {
       "code": "3PCENG",
@@ -3095,7 +3985,10 @@
       "room": "Lotus Stage 1",
       "start": 1793943000000,
       "doNotRecord": false,
-      "card": "cards/3PCENG.jpg"
+      "cards": {
+        "3192x1512": "cards/3PCENG-3192x1512.jpg",
+        "1920x1080": "cards/3PCENG-1920x1080.jpg"
+      }
     },
     {
       "code": "SASDDR",
@@ -3104,7 +3997,10 @@
       "room": "Lotus Stage 3",
       "start": 1793943000000,
       "doNotRecord": false,
-      "card": "cards/SASDDR.jpg"
+      "cards": {
+        "3192x1512": "cards/SASDDR-3192x1512.jpg",
+        "1920x1080": "cards/SASDDR-1920x1080.jpg"
+      }
     },
     {
       "code": "7YMTZP",
@@ -3113,7 +4009,9 @@
       "room": "Workshop 2",
       "start": 1793943000000,
       "doNotRecord": false,
-      "card": "cards/7YMTZP.jpg"
+      "cards": {
+        "1920x1080": "cards/7YMTZP-1920x1080.jpg"
+      }
     },
     {
       "code": "FZX97Y",
@@ -3122,7 +4020,10 @@
       "room": "Community Led Stage",
       "start": 1793943000000,
       "doNotRecord": false,
-      "card": "cards/FZX97Y.jpg"
+      "cards": {
+        "2016x1176": "cards/FZX97Y-2016x1176.jpg",
+        "1920x1080": "cards/FZX97Y-1920x1080.jpg"
+      }
     },
     {
       "code": "UBVWKD",
@@ -3131,7 +4032,10 @@
       "room": "Lotus Stage 2",
       "start": 1793943000000,
       "doNotRecord": false,
-      "card": "cards/UBVWKD.jpg"
+      "cards": {
+        "4032x1512": "cards/UBVWKD-4032x1512.jpg",
+        "1920x1080": "cards/UBVWKD-1920x1080.jpg"
+      }
     },
     {
       "code": "KFG7ZQ",
@@ -3140,7 +4044,9 @@
       "room": "Lightning Stage",
       "start": 1793943000000,
       "doNotRecord": false,
-      "card": "cards/KFG7ZQ.jpg"
+      "cards": {
+        "1920x1080": "cards/KFG7ZQ-1920x1080.jpg"
+      }
     },
     {
       "code": "QB3PET",
@@ -3149,7 +4055,9 @@
       "room": "Workshop 1",
       "start": 1793943000000,
       "doNotRecord": false,
-      "card": "cards/QB3PET.jpg"
+      "cards": {
+        "1920x1080": "cards/QB3PET-1920x1080.jpg"
+      }
     },
     {
       "code": "7UWDPJ",
@@ -3158,7 +4066,9 @@
       "room": "Lightning Stage",
       "start": 1793943600000,
       "doNotRecord": false,
-      "card": "cards/7UWDPJ.jpg"
+      "cards": {
+        "1920x1080": "cards/7UWDPJ-1920x1080.jpg"
+      }
     },
     {
       "code": "PP9EVV",
@@ -3167,7 +4077,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793944200000,
       "doNotRecord": false,
-      "card": "cards/PP9EVV.jpg"
+      "cards": {
+        "1680x1008": "cards/PP9EVV-1680x1008.jpg",
+        "1920x1080": "cards/PP9EVV-1920x1080.jpg"
+      }
     },
     {
       "code": "VVW9FX",
@@ -3176,7 +4089,9 @@
       "room": "Lightning Stage",
       "start": 1793944200000,
       "doNotRecord": false,
-      "card": "cards/VVW9FX.jpg"
+      "cards": {
+        "1920x1080": "cards/VVW9FX-1920x1080.jpg"
+      }
     },
     {
       "code": "SPPJS8",
@@ -3185,7 +4100,10 @@
       "room": "Lotus Stage 1",
       "start": 1793944800000,
       "doNotRecord": false,
-      "card": "cards/SPPJS8.jpg"
+      "cards": {
+        "3192x1512": "cards/SPPJS8-3192x1512.jpg",
+        "1920x1080": "cards/SPPJS8-1920x1080.jpg"
+      }
     },
     {
       "code": "UFT8C9",
@@ -3194,7 +4112,9 @@
       "room": "Lightning Stage",
       "start": 1793944800000,
       "doNotRecord": true,
-      "card": "cards/UFT8C9.jpg"
+      "cards": {
+        "1920x1080": "cards/UFT8C9-1920x1080.jpg"
+      }
     },
     {
       "code": "BWCZLJ",
@@ -3203,7 +4123,10 @@
       "room": "Lotus Stage 2",
       "start": 1793944800000,
       "doNotRecord": false,
-      "card": "cards/BWCZLJ.jpg"
+      "cards": {
+        "4032x1512": "cards/BWCZLJ-4032x1512.jpg",
+        "1920x1080": "cards/BWCZLJ-1920x1080.jpg"
+      }
     },
     {
       "code": "MATVZB",
@@ -3212,7 +4135,10 @@
       "room": "Lotus Stage 3",
       "start": 1793944800000,
       "doNotRecord": false,
-      "card": "cards/MATVZB.jpg"
+      "cards": {
+        "3192x1512": "cards/MATVZB-3192x1512.jpg",
+        "1920x1080": "cards/MATVZB-1920x1080.jpg"
+      }
     },
     {
       "code": "QZMC3J",
@@ -3221,7 +4147,9 @@
       "room": "Music stage",
       "start": 1793945400000,
       "doNotRecord": false,
-      "card": "cards/QZMC3J.jpg"
+      "cards": {
+        "1920x1080": "cards/QZMC3J-1920x1080.jpg"
+      }
     },
     {
       "code": "FAULEV",
@@ -3230,7 +4158,10 @@
       "room": "Lotus Stage 2",
       "start": 1793945400000,
       "doNotRecord": false,
-      "card": "cards/FAULEV.jpg"
+      "cards": {
+        "4032x1512": "cards/FAULEV-4032x1512.jpg",
+        "1920x1080": "cards/FAULEV-1920x1080.jpg"
+      }
     },
     {
       "code": "NAM38X",
@@ -3239,7 +4170,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793946000000,
       "doNotRecord": false,
-      "card": "cards/NAM38X.jpg"
+      "cards": {
+        "1680x1008": "cards/NAM38X-1680x1008.jpg",
+        "1920x1080": "cards/NAM38X-1920x1080.jpg"
+      }
     },
     {
       "code": "QVBBVF",
@@ -3248,7 +4182,10 @@
       "room": "Lotus Stage 2",
       "start": 1793946000000,
       "doNotRecord": false,
-      "card": "cards/QVBBVF.jpg"
+      "cards": {
+        "4032x1512": "cards/QVBBVF-4032x1512.jpg",
+        "1920x1080": "cards/QVBBVF-1920x1080.jpg"
+      }
     },
     {
       "code": "UCRQPP",
@@ -3257,7 +4194,10 @@
       "room": "Lotus Stage 3",
       "start": 1793946600000,
       "doNotRecord": false,
-      "card": "cards/UCRQPP.jpg"
+      "cards": {
+        "3192x1512": "cards/UCRQPP-3192x1512.jpg",
+        "1920x1080": "cards/UCRQPP-1920x1080.jpg"
+      }
     },
     {
       "code": "NSEV3A",
@@ -3266,7 +4206,9 @@
       "room": "Workshop 2",
       "start": 1793946600000,
       "doNotRecord": false,
-      "card": "cards/NSEV3A.jpg"
+      "cards": {
+        "1920x1080": "cards/NSEV3A-1920x1080.jpg"
+      }
     },
     {
       "code": "W8HAES",
@@ -3275,7 +4217,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793946600000,
       "doNotRecord": false,
-      "card": "cards/W8HAES.jpg"
+      "cards": {
+        "1680x1008": "cards/W8HAES-1680x1008.jpg",
+        "1920x1080": "cards/W8HAES-1920x1080.jpg"
+      }
     },
     {
       "code": "B9G98T",
@@ -3284,7 +4229,10 @@
       "room": "Lotus Stage 2",
       "start": 1793947800000,
       "doNotRecord": false,
-      "card": "cards/B9G98T.jpg"
+      "cards": {
+        "4032x1512": "cards/B9G98T-4032x1512.jpg",
+        "1920x1080": "cards/B9G98T-1920x1080.jpg"
+      }
     },
     {
       "code": "RVAAXG",
@@ -3293,7 +4241,9 @@
       "room": "Music stage",
       "start": 1793948400000,
       "doNotRecord": false,
-      "card": "cards/RVAAXG.jpg"
+      "cards": {
+        "1920x1080": "cards/RVAAXG-1920x1080.jpg"
+      }
     },
     {
       "code": "HQVBBE",
@@ -3302,7 +4252,10 @@
       "room": "Lotus Stage 3",
       "start": 1793948400000,
       "doNotRecord": false,
-      "card": "cards/HQVBBE.jpg"
+      "cards": {
+        "3192x1512": "cards/HQVBBE-3192x1512.jpg",
+        "1920x1080": "cards/HQVBBE-1920x1080.jpg"
+      }
     },
     {
       "code": "EJHDKJ",
@@ -3311,7 +4264,10 @@
       "room": "Community Led Stage",
       "start": 1793950200000,
       "doNotRecord": false,
-      "card": "cards/EJHDKJ.jpg"
+      "cards": {
+        "2016x1176": "cards/EJHDKJ-2016x1176.jpg",
+        "1920x1080": "cards/EJHDKJ-1920x1080.jpg"
+      }
     },
     {
       "code": "JCGTDY",
@@ -3320,7 +4276,9 @@
       "room": "Workshop 1",
       "start": 1793950200000,
       "doNotRecord": false,
-      "card": "cards/JCGTDY.jpg"
+      "cards": {
+        "1920x1080": "cards/JCGTDY-1920x1080.jpg"
+      }
     },
     {
       "code": "8WAE9N",
@@ -3329,7 +4287,10 @@
       "room": "Lotus Stage 3",
       "start": 1793950200000,
       "doNotRecord": false,
-      "card": "cards/8WAE9N.jpg"
+      "cards": {
+        "3192x1512": "cards/8WAE9N-3192x1512.jpg",
+        "1920x1080": "cards/8WAE9N-1920x1080.jpg"
+      }
     },
     {
       "code": "L3GYNM",
@@ -3338,7 +4299,10 @@
       "room": "Lotus Stage 1",
       "start": 1793950200000,
       "doNotRecord": false,
-      "card": "cards/L3GYNM.jpg"
+      "cards": {
+        "3192x1512": "cards/L3GYNM-3192x1512.jpg",
+        "1920x1080": "cards/L3GYNM-1920x1080.jpg"
+      }
     },
     {
       "code": "AZ7MSC",
@@ -3347,7 +4311,10 @@
       "room": "Jasmine Stage 4",
       "start": 1793952000000,
       "doNotRecord": false,
-      "card": "cards/AZ7MSC.jpg"
+      "cards": {
+        "1680x1008": "cards/AZ7MSC-1680x1008.jpg",
+        "1920x1080": "cards/AZ7MSC-1920x1080.jpg"
+      }
     },
     {
       "code": "Z3G7WS",
@@ -3356,7 +4323,10 @@
       "room": "Lotus Stage 1",
       "start": 1793952000000,
       "doNotRecord": false,
-      "card": "cards/Z3G7WS.jpg"
+      "cards": {
+        "3192x1512": "cards/Z3G7WS-3192x1512.jpg",
+        "1920x1080": "cards/Z3G7WS-1920x1080.jpg"
+      }
     },
     {
       "code": "XJWZLS",
@@ -3365,7 +4335,10 @@
       "room": "Lotus Stage 1",
       "start": 1793953800000,
       "doNotRecord": false,
-      "card": "cards/XJWZLS.jpg"
+      "cards": {
+        "3192x1512": "cards/XJWZLS-3192x1512.jpg",
+        "1920x1080": "cards/XJWZLS-1920x1080.jpg"
+      }
     },
     {
       "code": "AY7XJC",
@@ -3374,7 +4347,9 @@
       "room": "Workshop 1",
       "start": 1793953800000,
       "doNotRecord": false,
-      "card": "cards/AY7XJC.jpg"
+      "cards": {
+        "1920x1080": "cards/AY7XJC-1920x1080.jpg"
+      }
     },
     {
       "code": "QNAVXJ",
@@ -3383,7 +4358,9 @@
       "room": "Workshop 2",
       "start": 1793953800000,
       "doNotRecord": false,
-      "card": "cards/QNAVXJ.jpg"
+      "cards": {
+        "1920x1080": "cards/QNAVXJ-1920x1080.jpg"
+      }
     },
     {
       "code": "PMCTTU",
@@ -3392,7 +4369,10 @@
       "room": "Lotus Stage 2",
       "start": 1793953800000,
       "doNotRecord": false,
-      "card": "cards/PMCTTU.jpg"
+      "cards": {
+        "4032x1512": "cards/PMCTTU-4032x1512.jpg",
+        "1920x1080": "cards/PMCTTU-1920x1080.jpg"
+      }
     },
     {
       "code": "3DCAKL",
@@ -3401,7 +4381,10 @@
       "room": "Lotus Stage 1",
       "start": 1793955600000,
       "doNotRecord": false,
-      "card": "cards/3DCAKL.jpg"
+      "cards": {
+        "3192x1512": "cards/3DCAKL-3192x1512.jpg",
+        "1920x1080": "cards/3DCAKL-1920x1080.jpg"
+      }
     },
     {
       "code": "DWAERY",
@@ -3410,7 +4393,10 @@
       "room": "Lotus Stage 2",
       "start": 1793955600000,
       "doNotRecord": false,
-      "card": "cards/DWAERY.jpg"
+      "cards": {
+        "4032x1512": "cards/DWAERY-4032x1512.jpg",
+        "1920x1080": "cards/DWAERY-1920x1080.jpg"
+      }
     },
     {
       "code": "NLAK7U",
@@ -3419,7 +4405,10 @@
       "room": "Lotus Stage 1",
       "start": 1793957400000,
       "doNotRecord": false,
-      "card": "cards/NLAK7U.jpg"
+      "cards": {
+        "3192x1512": "cards/NLAK7U-3192x1512.jpg",
+        "1920x1080": "cards/NLAK7U-1920x1080.jpg"
+      }
     },
     {
       "code": "FGGY3S",
@@ -3428,7 +4417,9 @@
       "room": "Music stage",
       "start": 1793961000000,
       "doNotRecord": false,
-      "card": "cards/FGGY3S.jpg"
+      "cards": {
+        "1920x1080": "cards/FGGY3S-1920x1080.jpg"
+      }
     }
   ]
 }

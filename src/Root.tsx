@@ -14,9 +14,9 @@ const shared = {
   fps: FPS,
   width: WIDTH,
   height: HEIGHT,
-  durationInFrames: totalFrames(FPS, DEFAULT_HOLD_SECONDS),
+  durationInFrames: totalFrames(FPS, DEFAULT_HOLD_SECONDS, STREAM_SIZE),
   calculateMetadata: ({ props }: { props: TalkIntroProps }) => ({
-    durationInFrames: totalFrames(FPS, props.holdSeconds),
+    durationInFrames: totalFrames(FPS, props.holdSeconds, props),
     width: props.width,
     height: props.height,
   }),
@@ -37,7 +37,7 @@ export const RemotionRoot: React.FC = () => {
         {data.talks.flatMap((talk) =>
           variantsFor(talk.room).map((v) => (
             <Composition
-              key={`${talk.code}-${v.id}`}
+              key={`${talk.code}-${v.width}x${v.height}`}
               id={`talk-${talk.code}-${v.width}x${v.height}`}
               {...shared}
               defaultProps={{ talk, holdSeconds: DEFAULT_HOLD_SECONDS, width: v.width, height: v.height } satisfies TalkIntroProps}

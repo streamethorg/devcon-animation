@@ -9,6 +9,7 @@
 //   pnpm sync --every 30         # run forever, every 30 minutes
 //   pnpm sync --every 30 --port 3000   # same, plus an HTTP API to start runs on demand (the container's command)
 import { closeSync, copyFileSync, existsSync, mkdirSync, mkdtempSync, openSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import os from "node:os";
 import path from "node:path";
 import type { Talk, TalksFile } from "../src/types";
@@ -35,8 +36,9 @@ const ONLY = new Set(
   args.filter((a, i) => !a.startsWith("--") && args[i - 1] !== "--every" && args[i - 1] !== "--port").map((c) => c.toUpperCase()),
 );
 
-const cardPath = (code: string) => path.join(config.cardsDir, `${code}.jpg`);
-const cardRel = (code: string) => `cards/${code}.jpg`;
+// One card per talk and output size: the 1080p card, plus each stage screen's own.
+const cardRel = (code: string, size: string) => `cards/${code}-${size}.jpg`;
+const cardPath = (code: string, size: string) => path.join(config.publicDir, cardRel(code, size));
 const isActive = (t: TalkRow) => t.removed_at === null;
 const variantsFor = (room: string) =>
   config.streamOnly ? allVariantsFor(room).filter((v) => v.id === "1080p") : allVariantsFor(room);
@@ -50,7 +52,7 @@ function toTalk(t: TalkRow): Talk {
     room: t.room,
     start: t.start_ms,
     doNotRecord: t.do_not_record === 1,
-    card: cardRel(t.code),
+    cards: Object.fromEntries(variantsFor(t.room).map((v) => [sizeTag(v), cardRel(t.code, sizeTag(v))])),
   };
 }
 
@@ -127,7 +129,8 @@ async function runOnce(db: Db, dryRun: boolean, only: Set<string>): Promise<void
       if (prev.start_ms !== fields.start_ms)
         log(code, "time", new Date(prev.start_ms).toISOString(), new Date(fields.start_ms).toISOString());
       if (prev.do_not_record !== fields.do_not_record) log(code, "do_not_record", prev.do_not_record === 1, fields.do_not_record === 1);
-      if (prev.session_hash !== fields.session_hash || !prev.card_md5 || !existsSync(cardPath(code))) needCard.push(s);
+      const cardsMissing = variantsFor(fields.room).some((v) => !existsSync(cardPath(code, sizeTag(v))));
+      if (prev.session_hash !== fields.session_hash || !prev.card_md5 || cardsMissing) needCard.push(s);
       db.updateTalk(code, { ...fields, removed_at: null, missing_runs: 0, last_seen: nowIso() });
     }
     // The API occasionally leaves a talk out for a moment, so a talk only
@@ -161,13 +164,23 @@ async function runOnce(db: Db, dryRun: boolean, only: Set<string>): Promise<void
     await pool(needCard, 4, async (s) => {
       const code = s.sourceId;
       try {
-        const buf = await fetchCard(s.id);
-        const tmp = `${cardPath(code)}.tmp`;
-        writeFileSync(tmp, buf);
-        const md5 = md5File(tmp);
+        // Every size first, then swap them in: a failure leaves the old set whole.
+        const fetched = await Promise.all(
+          variantsFor(s.slot_room?.name ?? "").map(async (v) => ({ size: sizeTag(v), buf: await fetchCard(s.id, v) })),
+        );
+        const sums: string[] = [];
+        for (const { size, buf } of fetched) {
+          const tmp = `${cardPath(code, size)}.tmp`;
+          writeFileSync(tmp, buf);
+          sums.push(`${size}:${md5File(tmp)}`);
+        }
+        for (const { size } of fetched) {
+          copyFileSync(`${cardPath(code, size)}.tmp`, cardPath(code, size));
+          rmSync(`${cardPath(code, size)}.tmp`);
+        }
+        // The talk's card set as one hash: any size changing re-renders the talk.
+        const md5 = createHash("md5").update(sums.join(",")).digest("hex");
         const prev = db.talk(code)!;
-        copyFileSync(tmp, cardPath(code));
-        rmSync(tmp);
         if (prev.card_md5 && prev.card_md5 !== md5) log(code, "card", prev.card_md5, md5);
         db.updateTalk(code, { card_md5: md5 });
         if (prev.status?.startsWith("card:")) db.setStatus(runId, code, null);

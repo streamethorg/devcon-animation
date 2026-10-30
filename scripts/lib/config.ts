@@ -23,11 +23,12 @@ export const config = {
   // (and any already in Drive are trashed as no longer wanted).
   streamOnly: ["1", "true"].includes((process.env.STREAM_ONLY ?? "").toLowerCase()),
 
-  // Committed inputs
-  introFile: path.join(root, "assets/intro.webm"),
+  // Committed inputs: one intro master per screen size, assets/intro-<width>x<height>.webm
+  assetsDir: path.join(root, "assets"),
   entryPoint: path.join(root, "src/index.ts"),
   studioTalks: path.join(root, "src/talks.json"),
-  // Files whose contents change what a render looks like; part of each render key.
+  // Files whose contents change what a render looks like; part of each render key
+  // (with the intro master of the render's size).
   renderInputs: ["src/TalkIntro.tsx", "src/intro-meta.json"].map((f) =>
     path.join(root, f),
   ),

@@ -1,7 +1,37 @@
 {
-  "source": "intro.webm",
-  "fps": 23.976023976023978,
-  "durationInSeconds": 8.016,
-  "revealStart": 2.51,
-  "revealEnd": 3.344
+  "1680x1008": {
+    "source": "intro-1680x1008.webm",
+    "fps": 30,
+    "durationInSeconds": 8.008,
+    "revealStart": 2.5,
+    "revealEnd": 3.333
+  },
+  "1920x1080": {
+    "source": "intro-1920x1080.webm",
+    "fps": 30,
+    "durationInSeconds": 8.008,
+    "revealStart": 2.5,
+    "revealEnd": 3.333
+  },
+  "2016x1176": {
+    "source": "intro-2016x1176.webm",
+    "fps": 30,
+    "durationInSeconds": 8.008,
+    "revealStart": 2.5,
+    "revealEnd": 3.333
+  },
+  "3192x1512": {
+    "source": "intro-3192x1512.webm",
+    "fps": 30,
+    "durationInSeconds": 8.008,
+    "revealStart": 2.467,
+    "revealEnd": 3.333
+  },
+  "4032x1512": {
+    "source": "intro-4032x1512.webm",
+    "fps": 30,
+    "durationInSeconds": 8.008,
+    "revealStart": 2.467,
+    "revealEnd": 3.333
+  }
 }
