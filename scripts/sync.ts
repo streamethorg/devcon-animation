@@ -39,6 +39,13 @@ const ONLY = new Set(
 // One card per talk and output size: the 1080p card, plus each stage screen's own.
 const cardRel = (code: string, size: string) => `cards/${code}-${size}.jpg`;
 const cardPath = (code: string, size: string) => path.join(config.publicDir, cardRel(code, size));
+// What a video's card looks like, for its render key: only that size's card,
+// so adding a size (or a stage card changing) leaves the talk's other videos
+// alone. Same value as the old all-sizes hash for a talk with only a 1080p card.
+const cardKey = (code: string, size: string): string | null => {
+  const file = cardPath(code, size);
+  return existsSync(file) ? createHash("md5").update(`${size}:${md5File(file)}`).digest("hex") : null;
+};
 const isActive = (t: TalkRow) => t.removed_at === null;
 const variantsFor = (room: string) =>
   config.streamOnly ? allVariantsFor(room).filter((v) => v.id === "1080p") : allVariantsFor(room);
@@ -150,7 +157,10 @@ async function runOnce(db: Db, dryRun: boolean, only: Set<string>): Promise<void
       const candidates = db.talks().filter((t) => isActive(t) && !t.do_not_record && (!only.size || only.has(t.code)));
       const base = renderBaseKey();
       const stale = candidates.flatMap((t) =>
-        variantsFor(t.room).filter((v) => !t.card_md5 || renderKey(base, t.card_md5, v) !== db.output(t.code, sizeTag(v))?.render_key),
+        variantsFor(t.room).filter((v) => {
+          const card = cardKey(t.code, sizeTag(v));
+          return !card || renderKey(base, card, v) !== db.output(t.code, sizeTag(v))?.render_key;
+        }),
       );
       console.log(
         `Would fetch ${needCard.length} card(s); ${stale.length} video(s) already known to need a render ` +
@@ -276,17 +286,20 @@ async function runOnce(db: Db, dryRun: boolean, only: Set<string>): Promise<void
 
     // 3. Render what changed: one video per talk and size
     const base = renderBaseKey();
-    type Job = { t: TalkRow; v: Variant; out: OutputRow | undefined };
+    type Job = { t: TalkRow; v: Variant; out: OutputRow | undefined; key: string };
     const jobs: Job[] = active
       .filter((t) => !t.do_not_record && (!only.size || only.has(t.code)))
-      .flatMap((t) => variantsFor(t.room).map((v) => ({ t, v, out: db.output(t.code, sizeTag(v)) })))
-      .filter(({ t, v, out }) => {
-        const key = renderKey(base, t.card_md5!, v);
-        return key !== out?.render_key || !out?.out_file || !existsSync(out.out_file);
-      });
+      .flatMap((t) =>
+        variantsFor(t.room).flatMap((v) => {
+          const card = cardKey(t.code, sizeTag(v));
+          // No card at this size yet: its fetch failed and the talk's status says why.
+          return card ? [{ t, v, out: db.output(t.code, sizeTag(v)), key: renderKey(base, card, v) }] : [];
+        }),
+      )
+      .filter(({ out, key }) => key !== out?.render_key || !out?.out_file || !existsSync(out.out_file));
     console.log(`Rendering ${jobs.length} video(s)…`);
     const renderer = new Renderer();
-    for (const [i, { t, v, out }] of jobs.entries()) {
+    for (const [i, { t, v, out, key }] of jobs.entries()) {
       const size = sizeTag(v);
       const tag = `[${i + 1}/${jobs.length}] ${t.code} ${size}`;
       try {
@@ -297,7 +310,7 @@ async function runOnce(db: Db, dryRun: boolean, only: Set<string>): Promise<void
         });
         if (out?.out_file && out.out_file !== file) rmSync(out.out_file, { force: true });
         const md5 = md5File(file);
-        db.upsertOutput(t.code, size, { render_key: renderKey(base, t.card_md5!, v), rendered_at: nowIso(), out_file: file, out_md5: md5 });
+        db.upsertOutput(t.code, size, { render_key: key, rendered_at: nowIso(), out_file: file, out_md5: md5 });
         log(t.code, "rendered", out?.out_md5 ?? null, `${size} ${md5}`);
         if (db.talk(t.code)!.status?.startsWith("render")) db.setStatus(runId, t.code, null);
         console.log(`\r  ${tag} -> ${path.relative(config.root, file)}`);
