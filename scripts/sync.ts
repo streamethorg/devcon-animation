@@ -298,6 +298,14 @@ async function runOnce(db: Db, dryRun: boolean, only: Set<string>): Promise<void
         }),
       )
       .filter(({ out, key }) => key !== out?.render_key || !out?.out_file || !existsSync(out.out_file));
+    // Talks with nothing to render get their Drive files placed now, so moves and
+    // renames don't wait behind a long render queue.
+    if (drive) {
+      const pending = new Set(jobs.map((j) => j.t.code));
+      const ready = db.talks().filter((t) => !pending.has(t.code) && (!only.size || only.has(t.code)));
+      await pool(ready, 3, (t) => syncDrive(t.code));
+    }
+
     console.log(`Rendering ${jobs.length} video(s)…`);
     const renderer = new Renderer();
     for (const [i, { t, v, out, key }] of jobs.entries()) {
