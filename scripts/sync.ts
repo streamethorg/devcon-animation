@@ -17,7 +17,7 @@ import { sizeTag, variantsFor as allVariantsFor, type Variant } from "../src/scr
 import { config } from "./lib/config";
 import { Db, nowIso, type LogKind, type OutputRow, type RunRow, type TalkRow } from "./lib/db";
 import { fetchCard, fetchSessions, sessionHash, startMs, type ApiSession } from "./lib/devcon";
-import { ANIMATION_FOLDER, AvDrive, animationName, pool, type AnimFile } from "./lib/drive";
+import { AvDrive, animationFolderFor, animationName, pool, type AnimFile } from "./lib/drive";
 import { Renderer, md5File, renderBaseKey, renderKey } from "./lib/render";
 import { startServer } from "./lib/server";
 
@@ -238,20 +238,21 @@ async function runOnce(db: Db, dryRun: boolean, only: Set<string>): Promise<void
           const out = db.output(t.code, size);
           if (!out?.out_file || !existsSync(out.out_file)) continue;
           const name = animationName(slot.cardName, size);
-          const where = `${slot.where}/${ANIMATION_FOLDER}/${name}`;
+          const where = `${slot.where}/${animationFolderFor(size)}/${name}`;
           const sameSize = copies.filter((c) => c.size === size && !keep.has(c.id));
           const existing: AnimFile | undefined = sameSize.find((c) => c.id === out.drive_file_id) ?? sameSize[0];
           try {
             let fileId: string;
             if (existing) {
-              const needsMove = slot.animFolderId === null || existing.parentId !== slot.animFolderId || existing.name !== name;
+              const folderId = AvDrive.folderIdFor(slot, size);
+              const needsMove = folderId === null || existing.parentId !== folderId || existing.name !== name;
               const needsContent = existing.md5 !== out.out_md5;
-              if (needsMove || needsContent) await drive.update(existing, slot, name, needsContent ? out.out_file : null);
-              if (needsMove) log(t.code, "moved", `${existing.where}/${ANIMATION_FOLDER}/${existing.name}`, where);
+              if (needsMove || needsContent) await drive.update(existing, slot, size, name, needsContent ? out.out_file : null);
+              if (needsMove) log(t.code, "moved", `${existing.where}/${existing.name}`, where);
               if (needsContent) log(t.code, "uploaded", existing.md5, `${size} ${out.out_md5}`);
               fileId = existing.id;
             } else {
-              fileId = await drive.create(slot, name, out.out_file);
+              fileId = await drive.create(slot, size, name, out.out_file);
               log(t.code, "uploaded", null, where);
             }
             keep.add(fileId);
@@ -271,7 +272,7 @@ async function runOnce(db: Db, dryRun: boolean, only: Set<string>): Promise<void
         if (wanted.some((v) => sizeTag(v) === c.size) && !db.output(t.code, c.size)?.out_file) continue;
         try {
           await drive.trash(c.id);
-          log(t.code, "trashed", `${c.where}/${ANIMATION_FOLDER}/${c.name}`, null);
+          log(t.code, "trashed", `${c.where}/${c.name}`, null);
         } catch (err) {
           db.setStatus(runId, t.code, `drive: trash failed: ${errMsg(err)}`);
         }

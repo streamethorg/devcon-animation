@@ -1,8 +1,10 @@
 // The AV team's Drive. Talk cards (made by devcon-api's av-assets script) live at
 //   $$EVENT/<Room>/<Day N - Mon D>/YouTube Cards/HH.mm <Title> [CODE].jpg
 // (called "Intro Cards" before 26 Oct)
-// and animations go next to them, with the same name:
-//   $$EVENT/<Room>/<Day N - Mon D>/Intro Animation/HH.mm <Title> [CODE].mp4
+// and animations go next to them, with the same name: the 1920x1080 stream
+// version in "Intro Animation", stage screen sizes in "IRL Intro Animation":
+//   $$EVENT/<Room>/<Day N - Mon D>/Intro Animation/HH.mm <Title> [CODE] (1920x1080).mp4
+//   $$EVENT/<Room>/<Day N - Mon D>/IRL Intro Animation/HH.mm <Title> [CODE] (4032x1512).mp4
 //
 // Drive quirk (same as av-assets): the shared drive labels files the robot
 // uploads from outside, and that label hides them from the robot afterwards.
@@ -14,7 +16,13 @@ import { requireEnv } from "./config";
 
 const EVENT_FOLDER = "$$EVENT";
 const CARDS_FOLDERS = ["YouTube Cards", "Intro Cards"];
-export const ANIMATION_FOLDER = "Intro Animation";
+const STREAM_TAG = "1920x1080";
+const ANIMATION_FOLDER = "Intro Animation";
+const IRL_ANIMATION_FOLDER = "IRL Intro Animation";
+/** The day subfolder an animation of this size belongs in. */
+export const animationFolderFor = (size: string) => (size === STREAM_TAG ? ANIMATION_FOLDER : IRL_ANIMATION_FOLDER);
+// The AV team makes some of these folders by hand ("IRL intro animation").
+const sameName = (a: string | null | undefined, b: string) => (a ?? "").trim().toLowerCase() === b.toLowerCase();
 const SEED_NAME = process.env.AV_DRIVE_SEED_NAME ?? "_public placeholder (DON'T DELETE).png";
 const FOLDER_MIME = "application/vnd.google-apps.folder";
 // "... [CODE].jpg" for cards; "... [CODE] (4032x1512).mp4" for animations
@@ -25,7 +33,8 @@ type DriveFile = drive_v3.Schema$File;
 
 export type CardSlot = {
   dayFolderId: string;
-  animFolderId: string | null;
+  // Existing animation folders of the day, by name ("Intro Animation", "IRL Intro Animation")
+  animFolderIds: Record<string, string>;
   cardName: string;
   // "<Room>/<Day>" for logs
   where: string;
@@ -60,6 +69,11 @@ export class AvDrive {
   private root: string;
   private seedId: string | null = null;
   private animFolderCache = new Map<string, Promise<string>>();
+
+  /** The folder a file of this size belongs in for this slot, if it exists yet. */
+  static folderIdFor(slot: CardSlot, size: string): string | null {
+    return slot.animFolderIds[animationFolderFor(size)] ?? null;
+  }
 
   constructor() {
     const auth = new google.auth.JWT({
@@ -108,15 +122,19 @@ export class AvDrive {
       for (const day of await this.folders(room.id!)) {
         const sub = await this.folders(day.id!);
         const cardsFolder = sub.find((f) => CARDS_FOLDERS.includes(f.name ?? ""));
-        const animFolder = sub.find((f) => f.name === ANIMATION_FOLDER);
+        const animFolders = [ANIMATION_FOLDER, IRL_ANIMATION_FOLDER].flatMap((name) => {
+          const f = sub.find((x) => sameName(x.name, name));
+          return f ? [{ name, id: f.id! }] : [];
+        });
+        const animFolderIds = Object.fromEntries(animFolders.map((f) => [f.name, f.id]));
         const where = `${room.name}/${day.name}`;
         if (cardsFolder) {
           for (const c of await this.children(cardsFolder.id!)) {
             const code = CODE_RE.exec(c.name ?? "")?.[1];
-            if (code) cards.set(code, { dayFolderId: day.id!, animFolderId: animFolder?.id ?? null, cardName: c.name!, where });
+            if (code) cards.set(code, { dayFolderId: day.id!, animFolderIds, cardName: c.name!, where });
           }
         }
-        if (animFolder) {
+        for (const animFolder of animFolders) {
           for (const a of await this.children(animFolder.id!)) {
             const m = CODE_RE.exec(a.name ?? "");
             if (!m) continue;
@@ -124,10 +142,10 @@ export class AvDrive {
             const file: AnimFile = {
               id: a.id!,
               name: a.name!,
-              size: m[2] ?? "1920x1080",
+              size: m[2] ?? STREAM_TAG,
               md5: a.md5Checksum ?? null,
               parentId: a.parents?.[0] ?? null,
-              where,
+              where: `${where}/${animFolder.name}`,
             };
             animations.set(code, [...(animations.get(code) ?? []), file]);
           }
@@ -156,26 +174,29 @@ export class AvDrive {
     return id;
   }
 
-  /** The day's "Intro Animation" folder, created once even under concurrent uploads. */
-  private animFolder(slot: CardSlot): Promise<string> {
-    if (slot.animFolderId) return Promise.resolve(slot.animFolderId);
-    if (!this.animFolderCache.has(slot.dayFolderId)) {
+  /** The day's folder for this size, created once even under concurrent uploads. */
+  private animFolder(slot: CardSlot, size: string): Promise<string> {
+    const existing = AvDrive.folderIdFor(slot, size);
+    if (existing) return Promise.resolve(existing);
+    const name = animationFolderFor(size);
+    const key = `${slot.dayFolderId}/${name}`;
+    if (!this.animFolderCache.has(key)) {
       this.animFolderCache.set(
-        slot.dayFolderId,
+        key,
         this.drive.files
           .create({
-            requestBody: { name: ANIMATION_FOLDER, mimeType: FOLDER_MIME, parents: [slot.dayFolderId] },
+            requestBody: { name, mimeType: FOLDER_MIME, parents: [slot.dayFolderId] },
             fields: "id",
             supportsAllDrives: true,
           })
           .then((r) => r.data.id!),
       );
     }
-    return this.animFolderCache.get(slot.dayFolderId)!;
+    return this.animFolderCache.get(key)!;
   }
 
-  async create(slot: CardSlot, name: string, file: string): Promise<string> {
-    const target = await this.animFolder(slot);
+  async create(slot: CardSlot, size: string, name: string, file: string): Promise<string> {
+    const target = await this.animFolder(slot, size);
     const copy = await this.drive.files.copy({
       fileId: await this.seed(),
       requestBody: { name, parents: [target] },
@@ -192,8 +213,8 @@ export class AvDrive {
   }
 
   /** Moves/renames an existing animation and, when `file` is given, replaces its bytes. */
-  async update(existing: AnimFile, slot: CardSlot, name: string, file: string | null): Promise<void> {
-    const target = await this.animFolder(slot);
+  async update(existing: AnimFile, slot: CardSlot, size: string, name: string, file: string | null): Promise<void> {
+    const target = await this.animFolder(slot, size);
     const current = existing.parentId;
     await this.drive.files.update({
       fileId: existing.id,

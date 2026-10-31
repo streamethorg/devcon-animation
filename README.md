@@ -5,7 +5,7 @@ Per-talk intro videos for Devcon 8: the intro animation plays, its transparent i
 ```
 AV/$$EVENT/<Room>/<Day N - Mon D>/YouTube Cards/HH.mm <Title> [CODE].jpg     (devcon-api av-assets)
 AV/$$EVENT/<Room>/<Day N - Mon D>/Intro Animation/HH.mm <Title> [CODE] (1920x1080).mp4   (this repo, every talk)
-AV/$$EVENT/<Room>/<Day N - Mon D>/Intro Animation/HH.mm <Title> [CODE] (3192x1512).mp4   (this repo, stage screen size)
+AV/$$EVENT/<Room>/<Day N - Mon D>/IRL Intro Animation/HH.mm <Title> [CODE] (3192x1512).mp4   (this repo, stage screen size)
 ```
 
 Screen sizes per stage are in `src/screens.ts` (AV spec, 22 Oct; the same map as devcon.org's AV page and devcon-api's AV Drive pipeline). Changing a size there re-renders and renames that stage's files on the next sync. Set `STREAM_ONLY=1` to make only the 1920x1080 versions.
